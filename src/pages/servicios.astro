@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const servicios = [
+  { id: 1, titulo: "Maquetación web", descripcion: "HTML y CSS a medida" },
+  { id: 2, titulo: "Desarrollo WordPress", descripcion: "Temas y plugins personalizados" },
+  { id: 3, titulo: "Frontend moderno", descripcion: "React, Astro y Tailwind" },
+]
+---
+
+<Layout titulo="Servicios — Mi portfolio">
+  <h2 class="text-3xl font-bold mb-8">Servicios</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {servicios.map(s => (
+      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+        <h3 class="text-xl font-bold mb-2">{s.titulo}</h3>
+        <p class="text-slate-400">{s.descripcion}</p>
+      </div>
+    ))}
+  </div>
+</Layout>

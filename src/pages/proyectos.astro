@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+
+const proyectos = await getCollection('proyectos')
+console.log(proyectos)
+---
+
+<Layout titulo="Proyectos — Mi portfolio">
+  <h2 class="text-3xl font-bold mb-8">Proyectos</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {proyectos.map(proyecto => (
+      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+        <h3 class="text-xl font-bold mb-2">{proyecto.data.titulo}</h3>
+        <p class="text-slate-400 mb-4">{proyecto.data.descripcion}</p>
+        <div class="flex flex-wrap gap-2">
+          {proyecto.data.tecnologias.map(tech => (
+            <span class="bg-slate-700 text-slate-300 px-3 py-1 rounded-full text-xs">{tech}</span>
+          ))}
+        </div>
+        <p class="text-slate-500 text-sm mt-4">{proyecto.data.año}</p>
+      </div>
+    ))}
+  </div>
+</Layout>
