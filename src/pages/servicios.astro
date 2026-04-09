@@ -1,21 +1,89 @@
 ---
 import Layout from '../layouts/Layout.astro'
 
+
+const categorias = [
+  { id: 1, titulo: "HTML5"},
+  { id: 2, titulo: "CSS3"},
+  { id: 3, titulo: "PHP"},
+  { id: 4, titulo: "MySQL"},
+  { id: 5, titulo: "JavaScript"},
+  { id: 6, titulo: "Node.js"},
+  { id: 7, titulo: "Astro"},
+  { id: 8, titulo: "React"},
+  { id: 9, titulo: "Tailwind"},
+  { id: 10, titulo: "Vite"},
+  { id: 11, titulo: "Git"},
+  { id: 12, titulo: "WordPress"},
+  { id: 13, titulo: "Divi"},
+  { id: 14, titulo: "Elementor"},
+  { id: 15, titulo: "WooCommerce"},
+  { id: 16, titulo: "Figma"},
+  { id: 17, titulo: "Illustrator"},
+  { id: 18, titulo: "Photoshop"},
+  { id: 19, titulo: "InDesign"},
+  { id: 20, titulo: "After Effects"},
+  { id: 21, titulo: "Premiere Pro"}
+]
+
 const servicios = [
-  { id: 1, titulo: "Maquetación web", descripcion: "HTML y CSS a medida" },
-  { id: 2, titulo: "Desarrollo WordPress", descripcion: "Temas y plugins personalizados" },
-  { id: 3, titulo: "Frontend moderno", descripcion: "React, Astro y Tailwind" },
+  { id: 1, titulo: "Maquetación web", descripcion: "Del papel a internet. Easy peasy", categorias: [1, 2, 5, 16, 17, 18, 11] },
+  { id: 2, titulo: "Desarrollo WordPress", descripcion: "Temas y plugins personalizados", categorias: [3, 4, 12, 13, 14, 15] },
+  { id: 3, titulo: "Frontend moderno", descripcion: "React, Astro y Tailwind", categorias: [5, 6, 7, 8, 9, 10] },
+  { id: 4, titulo: "UX / UI", descripcion: "Esquematizar antes de diseñar", categorias: [16, 17, 18] },
+  { id: 5, titulo: "Identidad visual", descripcion: "Marcas, nombres, logos, manuales y más", categorias: [16, 17, 18, 19] },
+  { id: 6, titulo: "Edición de video", descripcion: "Cortes limpios y motion graphics", categorias: [16, 17, 18, 20, 21] },
+  { id: 7, titulo: "Marketing online", descripcion: "email marketing, banners, SEM, redes sociales...", categorias: [1, 2, 16, 17, 18] },
+  { id: 8, titulo: "Asesorías", descripcion: "¿No sabes por dónde empezar? Hablemos", categorias: [] },
 ]
 ---
 
 <Layout titulo="Servicios — Mi portfolio">
   <h2 class="text-3xl font-bold mb-8">Servicios</h2>
+  <div class="mb-8">
+    <p class="block mb-2 text-slate-300 font-semibold">Filtrar por categoría</p>
+    <div class="flex flex-wrap gap-3">
+      {categorias.map(cat => (
+        <label class="flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-2 text-sm text-slate-400 hover:bg-slate-500 hover:border-slate-400 cursor-pointer group">
+          <input type="checkbox" name="categoriaFiltro" value={cat.id} class="relative appearance-none w-3.5 h-3.5 border-2 border-slate-500 rounded-sm bg-slate-800 checked:bg-slate-500 cursor-pointer peer" />
+          <span class="text-xs group-hover:text-slate-300">{cat.titulo}</span>
+          <svg class="absolute w-4 h-4 mt-1 hidden peer-checked:block text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </label>
+      ))}
+    </div>
+  </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     {servicios.map(s => (
-      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700" data-categorias={s.categorias.join(',')}>
         <h3 class="text-xl font-bold mb-2">{s.titulo}</h3>
         <p class="text-slate-400">{s.descripcion}</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          {s.categorias.map(catId => {
+            const cat = categorias.find(c => c.id === catId);
+            return <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs">{cat?.titulo}</span>;
+          })}
+        </div>
       </div>
     ))}
   </div>
+  <script type="module">
+    const checkboxes = Array.from(document.querySelectorAll('input[name="categoriaFiltro"]'));
+    const cards = Array.from(document.querySelectorAll('[data-categorias]'));
+
+    const filterServices = () => {
+      const selected = checkboxes
+        .filter(input => input.checked)
+        .map(input => Number(input.value));
+
+      cards.forEach(card => {
+        const categorias = card.getAttribute('data-categorias').split(',').map(Number);
+        const visible = selected.length === 0 || selected.some(id => categorias.includes(id));
+        card.style.display = visible ? '' : 'none';
+      });
+    };
+
+    checkboxes.forEach(input => input.addEventListener('change', filterServices));
+  </script>
 </Layout>
