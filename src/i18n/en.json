@@ -1,0 +1,20 @@
+{
+  "nav.home": "Home",
+  "nav.services": "Services",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+  "nav.blog": "Blog",
+  "hero.greeting": "Hi, I'm Fon",
+  "hero.subtitle": "Your friend, neighbor and trusted front end developer.",
+  "hero.description": "I design, develop and optimize the digital experience of your project so that no one can resist its charms. After more than 15 years of experience in the sector, I have learned to combine creativity with functionality by accumulating flight hours with the following tools:",
+  "blog.title": "Blog",
+  "blog.latestArticles": "Latest articles",
+  "blog.readMore": "Read more",
+  "blog.emptyMessage": "No articles yet. Configure your WordPress URL in the environment variables.",
+  "contact.title": "Contact",
+  "contact.namePlaceholder": "Your name",
+  "contact.emailPlaceholder": "Your email",
+  "projects.title": "Projects",
+  "services.title": "Services",
+  "services.filter": "Filter by category"
+}

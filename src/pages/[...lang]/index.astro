@@ -1,0 +1,32 @@
+---
+export function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'eu' } }
+  ];
+}
+
+import Layout from '../../layouts/Layout.astro'
+import { getLocale, t } from '../../i18n/utils'
+
+const currentLocale = getLocale(Astro.url)
+const stack = ["HTML5", "CSS3", "PHP", "MySQL", "JavaScript", "Node.js", "Astro", "React", "Tailwind", "Vite", "Git", "WordPress", "Divi", "Elementor", "WooCommerce", "Figma", "Illustrator", "Photoshop", "InDesign", "After Effects", "Premiere Pro"]
+---
+
+<Layout titulo={`${t('hero.greeting', currentLocale)} — Mi portfolio`}>
+  <div class="flex flex-col items-center justify-center gap-6">
+    <div class="flex gap-12 items-center">
+      <div class="flex-col w-1/2">
+        <h1 class="text-5xl font-bold animate-fade-down animate-duration-4000 animate-ease-in-out text-slate-900 dark:text-white">{t('hero.greeting', currentLocale)}</h1>
+        <p class="text-base text-balance text-slate-700 dark:text-slate-300 animate-fade-up mt-4"><span class="font-extralight text-xl italic">{t('hero.subtitle', currentLocale)}</span><br/><br/>{t('hero.description', currentLocale)}</p>
+      </div>
+      <img class="w-1/2 mask-radial-at-center mask-radial-from-45% mask-radial-to-80% animate-pulse-fade-in" src="/hello.png" alt="Fon">
+    </div>
+    <ul class="flex gap-3 flex-wrap justify-center">
+      {stack.map((tech, index) => (
+        <li class="bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-200 px-4 py-2 rounded-full text-sm animate-fade-up hover:scale-120 hover:bg-slate-300 dark:hover:bg-slate-600 hover:text-slate-800 dark:hover:text-slate-300 hover:shadow-2xs transition-all ease-in-out" style={`animation-delay: ${index * 100}ms`}>{tech}</li>
+      ))}
+    </ul>
+  </div>
+</Layout>

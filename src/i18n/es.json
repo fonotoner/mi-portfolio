@@ -1,0 +1,20 @@
+{
+  "nav.home": "Inicio",
+  "nav.services": "Servicios",
+  "nav.projects": "Proyectos",
+  "nav.contact": "Contacto",
+  "nav.blog": "Blog",
+  "hero.greeting": "Hola, soy Fon",
+  "hero.subtitle": "Amigo, vecino y tu front end developer de confianza.",
+  "hero.description": "Diseño, desarrollo y optimizo la experiencia digital de tu proyecto para que nadie se pueda resistir a sus encantos. Después de más de 15 años de experiencia en el sector, he aprendido a combinar la creatividad con la funcionalidad acumulando horas de vuelo con las siguiente herramientas:",
+  "blog.title": "Blog",
+  "blog.latestArticles": "Últimos artículos",
+  "blog.readMore": "Leer más",
+  "blog.emptyMessage": "Aún no hay artículos. Configura tu URL de WordPress en las variables de entorno.",
+  "contact.title": "Contacto",
+  "contact.namePlaceholder": "Tu nombre",
+  "contact.emailPlaceholder": "Tu email",
+  "projects.title": "Proyectos",
+  "services.title": "Servicios",
+  "services.filter": "Filtrar por categoría"
+}

@@ -17,8 +17,15 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.1.5",
+    "astro-i18n": "^2.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "tailwindcss": "^4.2.2"
+  },
+  "overrides": {
+    "vite": "^7"
+  },
+  "devDependencies": {
+    "tailwindcss-animated": "^2.0.0"
   }
 }

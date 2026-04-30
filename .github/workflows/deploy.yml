@@ -1,0 +1,44 @@
+name: Deploy Astro to DonDominio via FTP
+
+on:
+  # Se ejecuta cuando subes cambios de c├│digo a la rama principal
+  push:
+    branches:
+      - main
+      - master
+  
+  # Se ejecuta cuando recibe el aviso (webhook) desde WordPress
+  repository_dispatch:
+    types: [wordpress-publish]
+
+jobs:
+  build-and-deploy:
+    name: Build and FTP Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 1. Checkout del c├│digo
+      uses: actions/checkout@v4
+      
+    - name: 2. Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: 3. Instalar dependencias
+      run: npm install
+
+    - name: 4. Construir tu portfolio en Astro
+      run: npm run build
+      env:
+        WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
+
+    - name: 5. Subir a DonDominio por FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./dist/
+        # Si tu web en DonDominio va en una subcarpeta descomenta y ajusta esta l├¡nea:
+        # remote-dir: /public_html/

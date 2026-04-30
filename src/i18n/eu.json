@@ -1,0 +1,20 @@
+{
+  "nav.home": "Hasiera",
+  "nav.services": "Zerbitzuak",
+  "nav.projects": "Proiektuak",
+  "nav.contact": "Kontaktua",
+  "nav.blog": "Blog",
+  "hero.greeting": "Kaixo, Fon naiz",
+  "hero.subtitle": "Zure adiskidea, auzoa eta fidagarria den front end developer.",
+  "hero.description": "Zure proiektuaren esperientzia digitala diseinatzen, garatzen eta optimizatzen dut inork ezin dezan erresistitu bere charma. Sekore batean 15 urte baino gehiagoko esperientziaren ondoren, kreatibitatearen eta funtzionalitatearen konbinatzea ikasi dut honako erraminta hauekarekin:",
+  "blog.title": "Blog",
+  "blog.latestArticles": "Azken artikuluak",
+  "blog.readMore": "Irakurri gehiago",
+  "blog.emptyMessage": "Oraindik ez dago artikulurik. Konfiguratu zure WordPress URL ingurune aldagaiekin.",
+  "contact.title": "Kontaktua",
+  "contact.namePlaceholder": "Zure izena",
+  "contact.emailPlaceholder": "Zure emaila",
+  "projects.title": "Proiektuak",
+  "services.title": "Zerbitzuak",
+  "services.filter": "Kategorian iragazkia"
+}

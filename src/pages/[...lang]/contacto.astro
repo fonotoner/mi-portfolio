@@ -1,0 +1,26 @@
+---
+export function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'eu' } }
+  ];
+}
+
+import Layout from '../../layouts/Layout.astro'
+import BotonContacto from '../../components/BotonContacto.jsx'
+import { getLocale, t } from '../../i18n/utils'
+
+const currentLocale = getLocale(Astro.url)
+---
+
+<Layout titulo={`${t('contact.title', currentLocale)} — Mi portfolio`}>
+  <div class="max-w-md mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-slate-900 dark:text-white">{t('contact.title', currentLocale)}</h2>
+    <div class="flex flex-col gap-4">
+      <input type="text" placeholder={t('contact.namePlaceholder', currentLocale)} class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 outline-none focus:border-slate-500 dark:focus:border-slate-400" />
+      <input type="email" placeholder={t('contact.emailPlaceholder', currentLocale)} class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 outline-none focus:border-slate-500 dark:focus:border-slate-400" />
+      <BotonContacto client:load />
+    </div>
+  </div>
+</Layout>

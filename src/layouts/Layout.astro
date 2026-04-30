@@ -1,19 +1,44 @@
 ---
 import '../styles/global.css'
+import LanguageSelector from '../components/LanguageSelector'
+import DarkModeToggle from '../components/DarkModeToggle.astro'
+import { getLocale, t } from '../i18n/utils'
+
 const { titulo } = Astro.props
+const currentLocale = getLocale(Astro.url)
 ---
 
-<html lang="es">
+<html lang={currentLocale}>
   <head>
     <meta charset="UTF-8" />
     <title>{titulo}</title>
+    <script is:inline>
+      // Prevent FOUC (Flash of Unstyled Content) on theme toggle
+      (function() {
+        const theme = localStorage.getItem('theme')
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        const isDark = theme ? theme === 'dark' : prefersDark
+        const htmlElement = document.documentElement
+        htmlElement.classList.toggle('dark', isDark)
+        document.addEventListener('DOMContentLoaded', () => {
+          document.body.classList.toggle('dark', isDark)
+        })
+      })()
+    </script>
   </head>
-  <body class="min-h-screen bg-slate-900 text-white">
-    <nav class="flex gap-6 p-6 border-b border-slate-700">
-      <a href="/" class="text-slate-300 hover:text-white transition-colors">Inicio</a>
-      <a href="/servicios" class="text-slate-300 hover:text-white transition-colors">Servicios</a>
-      <a href="/proyectos" class="text-slate-300 hover:text-white transition-colors">Proyectos</a>
-      <a href="/contacto" class="text-slate-300 hover:text-white transition-colors">Contacto</a>
+  <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white transition-colors duration-300">
+    <nav class="flex gap-6 p-6 border-b border-slate-200 dark:border-slate-700 uppercase font-bold text-sm tracking-widest peer-hover:gap-1 transition-all justify-between items-center">
+      <div class="flex gap-6">
+        <a href="/" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.home', currentLocale)}</a>
+        <a href="/servicios" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.services', currentLocale)}</a>
+        <a href="/proyectos" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.projects', currentLocale)}</a>
+        <a href="/blog" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.blog', currentLocale)}</a>
+        <a href="/contacto" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.contact', currentLocale)}</a>
+      </div>
+      <div class="flex gap-4 items-center">
+        <LanguageSelector client:load currentLocale={currentLocale} />
+        <DarkModeToggle />
+      </div>
     </nav>
     <main class="p-12">
       <slot />
