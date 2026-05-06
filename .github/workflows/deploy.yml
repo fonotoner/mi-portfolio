@@ -37,10 +37,12 @@ jobs:
         WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
 
     - name: Deploy via FTP to DonDominio
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      uses: SamKirkland/FTP-Deploy-Action@master
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
         server-dir: /
+        timeout: 600000
+        log-level: verbose
