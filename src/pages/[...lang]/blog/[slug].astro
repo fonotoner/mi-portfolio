@@ -1,53 +1,82 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
-import { getLocale } from '../../../i18n/utils'
+import Layout from "../../../layouts/Layout.astro";
+import { getLocale } from "../../../i18n/utils";
 
 export async function getStaticPaths() {
-  const { getPosts } = await import('../../../lib/wpService');
-  const posts = await getPosts(100)
-  
-  const langs = [undefined, 'en', 'eu']
-  
-  return langs.flatMap(lang => {
-    return posts.map(post => ({
+  const { getPosts } = await import("../../../lib/wpService");
+  const posts = await getPosts(100);
+
+  const langs = [undefined, "en", "eu"];
+
+  return langs.flatMap((lang) => {
+    return posts.map((post) => ({
       params: { lang, slug: post.slug },
-      props: { post }
-    }))
-  })
+      props: { post },
+    }));
+  });
 }
 
-const { post } = Astro.props
-const currentLocale = getLocale(Astro.url)
+const { post } = Astro.props;
+const currentLocale = getLocale(Astro.url);
 
 const dateOptions: Intl.DateTimeFormatOptions = {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric'
-}
-const localeString = currentLocale === 'en' ? 'en-US' : currentLocale === 'eu' ? 'eu-ES' : 'es-ES'
-const formattedDate = new Date(post.date).toLocaleDateString(localeString, dateOptions)
-const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url;
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+const localeString =
+  currentLocale === "en" ? "en-US" : currentLocale === "eu" ? "eu-ES" : "es-ES";
+const formattedDate = new Date(post.date).toLocaleDateString(
+  localeString,
+  dateOptions,
+);
+const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
 ---
 
 <Layout titulo={`${post.title.rendered} — Mi portfolio`}>
-  <article class="max-w-3xl mx-auto bg-white dark:bg-slate-800 p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 mt-8 mb-16">
-    <a href={currentLocale === 'es' ? '/blog' : `/${currentLocale}/blog`} class="inline-flex items-center text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white mb-8 transition-colors group">
-      <svg class="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
-      {currentLocale === 'en' ? 'Back to blog' : currentLocale === 'eu' ? 'Blogera itzuli' : 'Volver al blog'}
+  <article
+    class="max-w-3xl mx-auto bg-white dark:bg-slate-800 p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 mt-8 mb-16"
+  >
+    <a
+      href={currentLocale === "es" ? "/blog" : `/${currentLocale}/blog`}
+      class="inline-flex items-center text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white mb-8 transition-colors group"
+    >
+      <svg
+        class="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        ><path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg
+      >
+      {
+        currentLocale === "en"
+          ? "Back to blog"
+          : currentLocale === "eu"
+            ? "Blogera itzuli"
+            : "Volver al blog"
+      }
     </a>
-    
-    {featuredImage ? (
-      <div class="mb-10 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-700">
-        <img 
-          src={featuredImage} 
-          alt={post.title.rendered} 
-          class="w-full h-auto object-cover max-h-[60vh]"
-        />
-      </div>
-    ) : null}
+
+    {
+      featuredImage ? (
+        <div class="mb-10 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-700">
+          <img
+            src={featuredImage}
+            alt={post.title.rendered}
+            class="w-full h-auto object-cover max-h-[60vh]"
+          />
+        </div>
+      ) : null
+    }
 
     <header class="mb-12 border-b border-slate-100 dark:border-slate-700 pb-8">
-      <h1 class="text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white leading-tight">
+      <h1
+        class="text-4xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white leading-tight"
+      >
         {post.title.rendered}
       </h1>
       <time class="text-slate-500 dark:text-slate-400 font-medium">
@@ -73,14 +102,20 @@ const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url;
   .blog-content p {
     margin-bottom: 1.5em;
   }
-  .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4 {
+  .blog-content h1,
+  .blog-content h2,
+  .blog-content h3,
+  .blog-content h4 {
     color: var(--color-slate-900);
     font-weight: 700;
     margin-top: 2em;
     margin-bottom: 1em;
-    font-family: 'SpecialGothic', sans-serif;
+    font-family: "SpecialGothic", sans-serif;
   }
-  :global(.dark) .blog-content h1, :global(.dark) .blog-content h2, :global(.dark) .blog-content h3, :global(.dark) .blog-content h4 {
+  :global(.dark) .blog-content h1,
+  :global(.dark) .blog-content h2,
+  :global(.dark) .blog-content h3,
+  :global(.dark) .blog-content h4 {
     color: white;
   }
   .blog-content h2 {
