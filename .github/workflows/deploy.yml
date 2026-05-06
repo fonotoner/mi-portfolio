@@ -44,5 +44,11 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
         server-dir: /
+        exclude: |
+          **/.git*
+          **/.DS_Store
+          **/Thumbs.db
+          **/.vscode/**
+          **/.idea/**
         timeout: 600000
-        log-level: verbose
+        log-level: standard
