@@ -14,6 +14,13 @@
   "contact.title": "Contacto",
   "contact.namePlaceholder": "Tu nombre",
   "contact.emailPlaceholder": "Tu email",
+  "contact.subjectPlaceholder": "Asunto",
+  "contact.messagePlaceholder": "Tu mensaje...",
+  "contact.submit": "Enviar mensaje",
+  "contact.sending": "Enviando...",
+  "contact.successTitle": "¡Mensaje enviado!",
+  "contact.successMessage": "Gracias por escribir. Te responderé lo antes posible.",
+  "contact.errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo o escríbeme directamente al correo.",
   "projects.title": "Proyectos",
   "services.title": "Servicios",
   "services.filter": "Filtrar por categoría"

@@ -14,6 +14,13 @@
   "contact.title": "Contact",
   "contact.namePlaceholder": "Your name",
   "contact.emailPlaceholder": "Your email",
+  "contact.subjectPlaceholder": "Subject",
+  "contact.messagePlaceholder": "Your message...",
+  "contact.submit": "Send message",
+  "contact.sending": "Sending...",
+  "contact.successTitle": "Message sent!",
+  "contact.successMessage": "Thanks for reaching out. I'll get back to you as soon as possible.",
+  "contact.errorMessage": "Something went wrong. Please try again or email me directly.",
   "projects.title": "Projects",
   "services.title": "Services",
   "services.filter": "Filter by category"

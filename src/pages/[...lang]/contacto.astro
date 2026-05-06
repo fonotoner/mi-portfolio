@@ -2,25 +2,170 @@
 export function getStaticPaths() {
   return [
     { params: { lang: undefined } },
-    { params: { lang: 'en' } },
-    { params: { lang: 'eu' } }
+    { params: { lang: "en" } },
+    { params: { lang: "eu" } },
   ];
 }
 
-import Layout from '../../layouts/Layout.astro'
-import BotonContacto from '../../components/BotonContacto.jsx'
-import { getLocale, t } from '../../i18n/utils'
+import Layout from "../../layouts/Layout.astro";
+import { getLocale, t } from "../../i18n/utils";
 
-const currentLocale = getLocale(Astro.url)
+const currentLocale = getLocale(Astro.url);
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xaqvjvyj";
 ---
 
-<Layout titulo={`${t('contact.title', currentLocale)} — Mi portfolio`}>
-  <div class="max-w-md mx-auto">
-    <h2 class="text-3xl font-bold mb-8 text-slate-900 dark:text-white">{t('contact.title', currentLocale)}</h2>
-    <div class="flex flex-col gap-4">
-      <input type="text" placeholder={t('contact.namePlaceholder', currentLocale)} class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 outline-none focus:border-slate-500 dark:focus:border-slate-400" />
-      <input type="email" placeholder={t('contact.emailPlaceholder', currentLocale)} class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 outline-none focus:border-slate-500 dark:focus:border-slate-400" />
-      <BotonContacto client:load />
+<Layout titulo={`${t("contact.title", currentLocale)} — Mi portfolio`}>
+  <div class="max-w-lg mx-auto">
+    <h2 class="text-3xl font-bold mb-2 text-slate-900 dark:text-white">
+      {t("contact.title", currentLocale)}
+    </h2>
+    <p class="text-slate-500 dark:text-slate-400 mb-8 text-sm">
+      {
+        currentLocale === "en"
+          ? "Fill in the form and I'll get back to you shortly."
+          : currentLocale === "eu"
+            ? "Bete inprimakia eta laster erantzungo dizut."
+            : "Rellena el formulario y te respondo lo antes posible."
+      }
+    </p>
+
+    <!-- Formulario -->
+    <form
+      id="contact-form"
+      action={FORMSPREE_ENDPOINT}
+      method="POST"
+      class="flex flex-col gap-4"
+      novalidate
+    >
+      <div class="flex gap-4">
+        <input
+          id="contact-name"
+          type="text"
+          name="name"
+          required
+          placeholder={t("contact.namePlaceholder", currentLocale)}
+          class="flex-1 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
+        />
+        <input
+          id="contact-email"
+          type="email"
+          name="email"
+          required
+          placeholder={t("contact.emailPlaceholder", currentLocale)}
+          class="flex-1 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
+        />
+      </div>
+
+      <input
+        id="contact-subject"
+        type="text"
+        name="subject"
+        placeholder={t("contact.subjectPlaceholder", currentLocale)}
+        class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
+      />
+
+      <textarea
+        id="contact-message"
+        name="message"
+        required
+        rows="6"
+        placeholder={t("contact.messagePlaceholder", currentLocale)}
+        class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors resize-none"
+      ></textarea>
+
+      <button
+        id="contact-submit"
+        type="submit"
+        class="w-full font-semibold py-3 px-6 rounded-lg bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white transition-colors flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
+      >
+        <span id="submit-label">{t("contact.submit", currentLocale)}</span>
+        <svg
+          id="submit-spinner"
+          class="hidden w-4 h-4 animate-spin"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+        </svg>
+      </button>
+    </form>
+
+    <!-- Mensaje de éxito -->
+    <div
+      id="contact-success"
+      class="hidden mt-6 p-6 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl text-center"
+    >
+      <div class="text-4xl mb-3">✅</div>
+      <h3 class="font-bold text-green-800 dark:text-green-300 text-lg mb-1">
+        {t("contact.successTitle", currentLocale)}
+      </h3>
+      <p class="text-green-700 dark:text-green-400 text-sm">
+        {t("contact.successMessage", currentLocale)}
+      </p>
+    </div>
+
+    <!-- Mensaje de error -->
+    <div
+      id="contact-error"
+      class="hidden mt-4 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-700 dark:text-red-400 text-sm"
+    >
+      {t("contact.errorMessage", currentLocale)}
     </div>
   </div>
 </Layout>
+
+<script
+  define:vars={{
+    sendingLabel: t("contact.sending", currentLocale),
+    submitLabel: t("contact.submit", currentLocale),
+  }}
+>
+  const form = document.getElementById("contact-form");
+  const submitBtn = document.getElementById("contact-submit");
+  const submitLabelEl = document.getElementById("submit-label");
+  const spinner = document.getElementById("submit-spinner");
+  const successMsg = document.getElementById("contact-success");
+  const errorMsg = document.getElementById("contact-error");
+
+  form?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    // Mostrar estado de carga
+    submitBtn.disabled = true;
+    submitLabelEl.textContent = sendingLabel;
+    spinner.classList.remove("hidden");
+    errorMsg.classList.add("hidden");
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        // Éxito: ocultar formulario y mostrar confirmación
+        form.classList.add("hidden");
+        successMsg.classList.remove("hidden");
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch {
+      // Error: mostrar mensaje de error
+      errorMsg.classList.remove("hidden");
+      submitBtn.disabled = false;
+      submitLabelEl.textContent = submitLabel;
+      spinner.classList.add("hidden");
+    }
+  });
+</script>

@@ -14,6 +14,13 @@
   "contact.title": "Kontaktua",
   "contact.namePlaceholder": "Zure izena",
   "contact.emailPlaceholder": "Zure emaila",
+  "contact.subjectPlaceholder": "Gaia",
+  "contact.messagePlaceholder": "Zure mezua...",
+  "contact.submit": "Mezua bidali",
+  "contact.sending": "Bidaltzen...",
+  "contact.successTitle": "Mezua bidalita!",
+  "contact.successMessage": "Idazteagatik eskerrik asko. Ahalik eta azkarren erantzungo dizut.",
+  "contact.errorMessage": "Zerbait gaizki joan da. Mesedez, saiatu berriro edo idatzi zuzenean emailez.",
   "projects.title": "Proiektuak",
   "services.title": "Zerbitzuak",
   "services.filter": "Kategorian iragazkia"
