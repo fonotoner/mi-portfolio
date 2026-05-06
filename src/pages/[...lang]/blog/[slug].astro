@@ -96,8 +96,13 @@ const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
     line-height: 1.75;
     color: var(--color-slate-700);
   }
-  :global(.dark) .blog-content {
-    color: var(--color-slate-300);
+  .dark .blog-content {
+    color: var(--color-slate-200);
+  }
+  .dark .blog-content p,
+  .dark .blog-content li,
+  .dark .blog-content span {
+    color: var(--color-slate-200);
   }
   .blog-content p {
     margin-bottom: 1.5em;
@@ -112,10 +117,10 @@ const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
     margin-bottom: 1em;
     font-family: "SpecialGothic", sans-serif;
   }
-  :global(.dark) .blog-content h1,
-  :global(.dark) .blog-content h2,
-  :global(.dark) .blog-content h3,
-  :global(.dark) .blog-content h4 {
+  .dark .blog-content h1,
+  .dark .blog-content h2,
+  .dark .blog-content h3,
+  .dark .blog-content h4 {
     color: white;
   }
   .blog-content h2 {
@@ -128,7 +133,7 @@ const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
     color: var(--color-blue-600);
     text-decoration: underline;
   }
-  :global(.dark) .blog-content a {
+  .dark .blog-content a {
     color: var(--color-blue-400);
   }
   .blog-content ul {
@@ -153,7 +158,7 @@ const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
     font-style: italic;
     color: var(--color-slate-600);
   }
-  :global(.dark) .blog-content blockquote {
+  .dark .blog-content blockquote {
     border-left-color: var(--color-slate-600);
     color: var(--color-slate-400);
   }
