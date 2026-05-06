@@ -9,6 +9,11 @@ on:
   repository_dispatch:
     types: [wordpress-publish]
 
+  schedule:
+    - cron: "*/15 * * * *"
+
+  workflow_dispatch:
+
 jobs:
   build-and-deploy:
     name: Build and FTP Deploy
