@@ -9,8 +9,9 @@ on:
   repository_dispatch:
     types: [wordpress-publish]
 
-  schedule:
-    - cron: "*/15 * * * *"
+# Uncomment this to deploy every 15 minutes
+#  schedule:
+#    - cron: "*/15 * * * *"
 
   workflow_dispatch:
 
