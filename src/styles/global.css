@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: 'SpecialGothic';
-    src: url('/fonts/specialgothic.woff2') format('woff2');
+    font-family: 'caprasimo';
+    src: url('/fonts/caprasimo.woff2') format('woff2');
     font-style: normal;
     font-weight: 200 900;
     font-display: swap;
@@ -23,7 +23,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'SpecialGothic', sans-serif;
+    font-family: 'caprasimo', sans-serif;
 }
 
 html, body {

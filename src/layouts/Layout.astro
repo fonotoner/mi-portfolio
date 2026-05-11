@@ -27,21 +27,61 @@ const currentLocale = getLocale(Astro.url)
     </script>
   </head>
   <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white transition-colors duration-300">
-    <nav class="flex gap-6 p-6 border-b border-slate-200 dark:border-slate-700 uppercase font-bold text-sm tracking-widest peer-hover:gap-1 transition-all justify-between items-center">
-      <div class="flex gap-6">
-        <a href="/" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.home', currentLocale)}</a>
-        <a href="/servicios" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.services', currentLocale)}</a>
-        <a href="/proyectos" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.projects', currentLocale)}</a>
-        <a href="/blog" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.blog', currentLocale)}</a>
-        <a href="/contacto" class="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:scale-110 hover:tracking-[3px] transition peer">{t('nav.contact', currentLocale)}</a>
-      </div>
+    <nav class="p-6 border-b border-slate-200 dark:border-slate-700 uppercase font-bold text-sm tracking-widest transition-all flex justify-end items-center">
       <div class="flex gap-4 items-center">
         <LanguageSelector client:load currentLocale={currentLocale} />
         <DarkModeToggle />
+        <details class="relative group nav-menu">
+          <summary
+            class="list-none cursor-pointer rounded-md p-2 bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-100 hover:bg-slate-300 dark:hover:bg-slate-600 transition"
+            aria-label="Open navigation menu"
+          >
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </summary>
+          <div class="nav-menu-panel absolute right-0 mt-2 w-52 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-lg p-2 z-20">
+            <a href="/" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.home', currentLocale)}</a>
+            <a href="/servicios" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.services', currentLocale)}</a>
+            <a href="/proyectos" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.projects', currentLocale)}</a>
+            <a href="/blog" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.blog', currentLocale)}</a>
+            <a href="/contacto" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.contact', currentLocale)}</a>
+          </div>
+        </details>
       </div>
     </nav>
     <main class="p-12">
       <slot />
     </main>
+    <script is:inline>
+      (() => {
+        const menus = document.querySelectorAll('.nav-menu')
+
+        menus.forEach((menu) => {
+          const links = menu.querySelectorAll('a')
+
+          links.forEach((link) => {
+            link.addEventListener('click', () => {
+              menu.removeAttribute('open')
+            })
+          })
+        })
+      })()
+    </script>
+    <style is:inline>
+      .nav-menu-panel {
+        opacity: 0;
+        transform: translateY(-6px) scale(0.98);
+        transform-origin: top right;
+        transition: opacity 220ms ease, transform 220ms ease;
+        pointer-events: none;
+      }
+
+      .nav-menu[open] .nav-menu-panel {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        pointer-events: auto;
+      }
+    </style>
   </body>
 </html>
