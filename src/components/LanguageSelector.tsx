@@ -64,7 +64,7 @@ export default function LanguageSelector({ currentLocale }: LanguageSelectorProp
           onClick={() => handleLanguageChange(lang.code)}
           className={`px-3 py-1 rounded text-xs font-bold transition-all ${
             currentLocale === lang.code
-              ? 'bg-red-600 text-white'
+              ? 'bg-amber-600 text-white'
               : 'bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600'
           }`}
         >

@@ -3,27 +3,27 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
-    font-family: 'Inter';
-    src: url('/fonts/inter.woff2') format('woff2');
+    font-family: 'DMSans';
+    src: url('/fonts/dmsans.woff2') format('woff2');
     font-style: normal;
     font-weight: 200 900;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'caprasimo';
-    src: url('/fonts/caprasimo.woff2') format('woff2');
+    font-family: 'SpaceGrotesk';
+    src: url('/fonts/spacegrotesk.woff2') format('woff2');
     font-style: normal;
     font-weight: 200 900;
     font-display: swap;
 }
 
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'DMSans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'caprasimo', sans-serif;
+    font-family: 'SpaceGrotesk', sans-serif;
 }
 
 html, body {

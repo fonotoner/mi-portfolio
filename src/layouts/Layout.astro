@@ -27,8 +27,9 @@ const currentLocale = getLocale(Astro.url)
     </script>
   </head>
   <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white transition-colors duration-300">
-    <nav class="p-6 border-b border-slate-200 dark:border-slate-700 uppercase font-bold text-sm tracking-widest transition-all flex justify-end items-center">
+    <nav class="p-6 uppercase font-bold text-sm tracking-widest transition-all flex justify-end items-center fixed top-0 left-0 right-0 z-50">
       <div class="flex gap-4 items-center">
+        <svg id="logo" class="w-16 float-left rotate-[var(--scroll-rotation)]" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512"><defs><style>.st0{fill:#fff}.st0,.st1{stroke:#fff}.st1{fill:none;stroke-miterlimit:10;stroke-width:40.09px}</style></defs><circle class="st1" cx="256" cy="257.38" r="219.16"/><path class="st0" d="M179.06,216.31c4.88-15.46,12.27-39.65,14.65-55.01,4.87-33.97-23.87-27.05-17.84-47.94,4.17-14.43,22.63-15.68,34.78-12.17,9.87,2.85,77.13,26.38,108.65,35.49,7.6,2.19,85.02,20.44,90.33,21.97,14.81,4.28,21.39,39.91,13.93,65.73-3.73,12.91-13.64,24.45-28.07,20.28-26.2-7.57-1.24-42.73-74.15-63.79-23.16-6.69-32.49-11.44-48.39,43.62-1.97,6.83-3.46,13.4,18.57,19.76,29.24,8.44,20.72-31.87,47.3-24.19,21.65,6.25,11.21,48.08,6.94,62.89-5.15,17.85-20.32,63.25-46.14,55.79-24.3-7.02,13.15-42.69-27.48-54.42-16.71-4.82-15.31-1.13-26.98,37.87-17.75,55.76,29.6,35.7,21.26,64.56-2.52,8.73-3.93,26.43-96.2-.22-60.76-17.54-68.11-29.13-63.39-45.46,6.14-21.27,23.8-5.47,37.58-23.29,6.87-9.54,15.79-36.17,19.41-48.7l15.24-52.78Z"/></svg>
         <LanguageSelector client:load currentLocale={currentLocale} />
         <DarkModeToggle />
         <details class="relative group nav-menu">
@@ -50,7 +51,7 @@ const currentLocale = getLocale(Astro.url)
         </details>
       </div>
     </nav>
-    <main class="p-12">
+    <main class="w-4/5 max-w-[1080px] mx-auto pt-24">
       <slot />
     </main>
     <script is:inline>
@@ -67,6 +68,10 @@ const currentLocale = getLocale(Astro.url)
           })
         })
       })()
+      window.addEventListener('scroll', () => {
+        const rotation = window.scrollY / 5; // Adjust divisor to change speed
+        document.getElementById('logo').style.setProperty('--scroll-rotation', `${rotation}deg`);
+      });
     </script>
     <style is:inline>
       .nav-menu-panel {
