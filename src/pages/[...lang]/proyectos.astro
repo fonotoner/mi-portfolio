@@ -16,7 +16,7 @@ const proyectos = await getCollection('proyectos')
 ---
 
 <Layout titulo={`${t('projects.title', currentLocale)} — Mi portfolio`}>
-  <h2 class="text-3xl font-bold mb-8 text-slate-900 dark:text-white">{t('projects.title', currentLocale)}</h2>
+  <h1 class="text-3xl font-bold mb-8 text-slate-900 dark:text-white">{t('projects.title', currentLocale)}</h1>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     {proyectos.map(proyecto => (
       <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700">

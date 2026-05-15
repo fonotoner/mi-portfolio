@@ -2,11 +2,13 @@
 import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
-
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
 
-// https://astro.build/config
+
 export default defineConfig({
+  site: 'https://fonotoner.es',
+  
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en', 'eu'],
@@ -17,11 +19,12 @@ export default defineConfig({
 
   vite: {
     plugins: [
-      tailwindcss({
-        applyBaseStyles: true,
-      })
+      tailwindcss()
     ]
   },
 
-  integrations: [react()],
+  integrations: [
+    react(),
+    sitemap()
+  ],
 });

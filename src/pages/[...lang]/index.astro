@@ -23,28 +23,30 @@ const dibuLightSvg = fs
 const dibuDarkSvg = fs
   .readFileSync(path.join(process.cwd(), "public", "img", "yop-white.svg"), "utf-8")
   .replace('id="Capa_1"', 'id="dibu-svg-dark"');
-const stack = [
-  "HTML5",
-  "CSS3",
-  "PHP",
-  "MySQL",
-  "JavaScript",
-  "Node.js",
-  "Astro",
-  "React",
-  "Tailwind",
-  "Vite",
-  "Git",
-  "WordPress",
-  "Divi",
-  "Elementor",
-  "WooCommerce",
-  "Figma",
-  "Illustrator",
-  "Photoshop",
-  "InDesign",
-  "After Effects",
-  "Premiere Pro",
+/** `icon` = basename in public/img/stack (without .svg) */
+const stack: { label: string; icon: string }[] = [
+  { label: "HTML5", icon: "html" },
+  { label: "CSS3", icon: "css" },
+  { label: "PHP", icon: "php" },
+  { label: "MySQL", icon: "mysql" },
+  { label: "JavaScript", icon: "js" },
+  { label: "Node.js", icon: "nodejs" },
+  { label: "Astro", icon: "astro" },
+  { label: "React", icon: "react" },
+  { label: "Tailwind", icon: "tailwind" },
+  { label: "Vite", icon: "vite" },
+  { label: "Git", icon: "git" },
+  { label: "WordPress", icon: "wordpress" },
+  { label: "Divi", icon: "divi" },
+  { label: "Elementor", icon: "elementor" },
+  { label: "WooCommerce", icon: "woocommerce" },
+  { label: "SVG", icon: "svg" },
+  { label: "Figma", icon: "figma" },
+  { label: "Illustrator", icon: "illustrator" },
+  { label: "Photoshop", icon: "photoshop" },
+  { label: "InDesign", icon: "indesign" },
+  { label: "After Effects", icon: "aftereffects" },
+  { label: "Premiere Pro", icon: "premierepro" },
 ];
 ---
 
@@ -65,8 +67,21 @@ const stack = [
     </div>
     <ul class="flex gap-3 flex-wrap justify-center">
       {
-        stack.map((tech, index) => (
-          <li class="bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-200 px-4 py-2 rounded-full text-sm animate-fade-up hover:scale-120 hover:bg-slate-300 dark:hover:bg-slate-600 hover:text-slate-800 dark:hover:text-slate-300 hover:shadow-2xs transition-all ease-in-out" style={`animation-delay: ${index * 100}ms`}>{tech}</li>
+        stack.map(({ label, icon }, index) => (
+          <li
+            class="inline-flex items-center gap-2 bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-200 px-4 py-2 rounded-full text-sm animate-fade-up hover:scale-120 hover:bg-slate-300 dark:hover:bg-slate-600 hover:text-slate-800 dark:hover:text-slate-300 hover:shadow-2xs transition-all ease-in-out"
+            style={`animation-delay: ${index * 100}ms`}
+          >
+            <img
+              src={`/img/stack/${icon}.svg`}
+              alt=""
+              width="16"
+              height="16"
+              class="h-[1em] w-[1em] shrink-0 object-contain opacity-90 dark:opacity-95"
+              aria-hidden="true"
+            />
+            {label}
+          </li>
         ))
       }
     </ul>
