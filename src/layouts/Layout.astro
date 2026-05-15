@@ -37,7 +37,30 @@ const currentLocale = getLocale(Astro.url)
     <meta property="twitter:image" content={new URL('/og-image.png', Astro.url).toString()} />
     
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <script is:inline>
+      // Dynamic favicon based on theme
+      (function() {
+        const updateFavicon = (isDark) => {
+          const favicon = document.getElementById('favicon')
+          favicon.href = isDark ? '/favicon-dark.svg' : '/favicon-light.svg'
+        }
+
+        // Get initial theme
+        const theme = localStorage.getItem('theme')
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        const isDark = theme ? theme === 'dark' : prefersDark
+        
+        // Set favicon on initial load
+        updateFavicon(isDark)
+
+        // Listen for theme changes
+        document.addEventListener('theme-changed', (e) => {
+          updateFavicon(e.detail.isDark)
+        })
+      })()
+    </script>
     
     <script is:inline>
       // Prevent FOUC (Flash of Unstyled Content) on theme toggle
