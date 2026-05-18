@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { navigate } from 'astro:transitions/client'
 
 interface LanguageSelectorProps {
   currentLocale: string
@@ -53,7 +54,7 @@ export default function LanguageSelector({ currentLocale }: LanguageSelectorProp
       newPath = `/${locale}${basePath === '/' ? '' : basePath}`
     }
 
-    window.location.href = newPath
+    navigate(newPath)
   }
 
   return (

@@ -3,6 +3,8 @@ import '../styles/global.css'
 import LanguageSelector from '../components/LanguageSelector'
 import DarkModeToggle from '../components/DarkModeToggle.astro'
 import { getLocale, t } from '../i18n/utils'
+import { ClientRouter } from 'astro:transitions'
+import { fade } from 'astro:transitions'
 
 const { titulo } = Astro.props
 const currentLocale = getLocale(Astro.url)
@@ -62,21 +64,29 @@ const currentLocale = getLocale(Astro.url)
       })()
     </script>
     
-    <script is:inline>
+    <script is:inline data-astro-rerun>
       // Prevent FOUC (Flash of Unstyled Content) on theme toggle
       (function() {
-        const theme = localStorage.getItem('theme')
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-        const isDark = theme ? theme === 'dark' : prefersDark
-        const htmlElement = document.documentElement
-        htmlElement.classList.toggle('dark', isDark)
-        document.addEventListener('DOMContentLoaded', () => {
-          document.body.classList.toggle('dark', isDark)
+        const applyTheme = () => {
+          const theme = localStorage.getItem('theme')
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isDark = theme ? theme === 'dark' : prefersDark
+          document.documentElement.classList.toggle('dark', isDark)
+          if (document.body) document.body.classList.toggle('dark', isDark)
+        }
+
+        applyTheme()
+        document.addEventListener('theme-changed', (e) => {
+          const isDark = e.detail.isDark
+          document.documentElement.classList.toggle('dark', isDark)
+          if (document.body) document.body.classList.toggle('dark', isDark)
         })
+        document.addEventListener('astro:page-load', applyTheme)
       })()
     </script>
+    <ClientRouter />
   </head>
-  <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white transition-colors duration-300">
+  <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
     <nav class="p-6 uppercase font-bold text-sm tracking-widest transition-all flex justify-end items-center fixed top-0 left-0 right-0 z-50">
       <div class="flex gap-4 items-center">
         <svg id="logo" class="w-16 shrink-0 float-left rotate-[var(--scroll-rotation)] text-slate-900 dark:text-white transition-colors" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" aria-hidden="true"><defs><style>.st0{fill:currentColor}.st0,.st1{stroke:currentColor}.st1{fill:none;stroke-miterlimit:10;stroke-width:40.09px}</style></defs><circle class="st1" cx="256" cy="257.38" r="219.16"/><path class="st0" d="M179.06,216.31c4.88-15.46,12.27-39.65,14.65-55.01,4.87-33.97-23.87-27.05-17.84-47.94,4.17-14.43,22.63-15.68,34.78-12.17,9.87,2.85,77.13,26.38,108.65,35.49,7.6,2.19,85.02,20.44,90.33,21.97,14.81,4.28,21.39,39.91,13.93,65.73-3.73,12.91-13.64,24.45-28.07,20.28-26.2-7.57-1.24-42.73-74.15-63.79-23.16-6.69-32.49-11.44-48.39,43.62-1.97,6.83-3.46,13.4,18.57,19.76,29.24,8.44,20.72-31.87,47.3-24.19,21.65,6.25,11.21,48.08,6.94,62.89-5.15,17.85-20.32,63.25-46.14,55.79-24.3-7.02,13.15-42.69-27.48-54.42-16.71-4.82-15.31-1.13-26.98,37.87-17.75,55.76,29.6,35.7,21.26,64.56-2.52,8.73-3.93,26.43-96.2-.22-60.76-17.54-68.11-29.13-63.39-45.46,6.14-21.27,23.8-5.47,37.58-23.29,6.87-9.54,15.79-36.17,19.41-48.7l15.24-52.78Z"/></svg>
@@ -92,19 +102,19 @@ const currentLocale = getLocale(Astro.url)
             </svg>
           </summary>
           <div class="nav-menu-panel absolute right-0 mt-2 w-52 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-lg p-2 z-20">
-            <a href="/" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.home', currentLocale)}</a>
-            <a href="/servicios" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.services', currentLocale)}</a>
-            <a href="/proyectos" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.projects', currentLocale)}</a>
-            <a href="/blog" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.blog', currentLocale)}</a>
-            <a href="/contacto" class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.contact', currentLocale)}</a>
+            <a href={currentLocale === 'es' ? '/' : `/${currentLocale}`} class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.home', currentLocale)}</a>
+            <a href={currentLocale === 'es' ? '/servicios' : `/${currentLocale}/servicios`} class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.services', currentLocale)}</a>
+            <a href={currentLocale === 'es' ? '/proyectos' : `/${currentLocale}/proyectos`} class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.projects', currentLocale)}</a>
+            <a href={currentLocale === 'es' ? '/blog' : `/${currentLocale}/blog`} class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.blog', currentLocale)}</a>
+            <a href={currentLocale === 'es' ? '/contacto' : `/${currentLocale}/contacto`} class="block px-3 py-2 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">{t('nav.contact', currentLocale)}</a>
           </div>
         </details>
       </div>
     </nav>
-    <main class="w-4/5 max-w-[1080px] mx-auto pt-24">
+    <main transition:animate={fade({ duration: '0.35s' })} class="w-4/5 max-w-270 mx-auto pt-24">
       <slot />
     </main>
-    <script is:inline>
+    <script is:inline data-astro-rerun>
       (() => {
         const menus = document.querySelectorAll('.nav-menu')
 
