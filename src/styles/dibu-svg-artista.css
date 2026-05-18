@@ -29,8 +29,8 @@
     }
 
     .svg-elem-1 {
-      -webkit-animation: animate-svg-stroke-1 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
-              animation: animate-svg-stroke-1 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+      -webkit-animation: animate-svg-stroke-1 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+              animation: animate-svg-stroke-1 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-2 {
@@ -58,8 +58,8 @@
     }
 
     .svg-elem-2 {
-      -webkit-animation: animate-svg-stroke-2 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both;
-              animation: animate-svg-stroke-2 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both;
+      -webkit-animation: animate-svg-stroke-2 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both;
+              animation: animate-svg-stroke-2 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-3 {
@@ -87,8 +87,8 @@
     }
 
     .svg-elem-3 {
-      -webkit-animation: animate-svg-stroke-3 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both;
-              animation: animate-svg-stroke-3 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both;
+      -webkit-animation: animate-svg-stroke-3 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both;
+              animation: animate-svg-stroke-3 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-4 {
@@ -116,8 +116,8 @@
     }
 
     .svg-elem-4 {
-      -webkit-animation: animate-svg-stroke-4 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both;
-              animation: animate-svg-stroke-4 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both;
+      -webkit-animation: animate-svg-stroke-4 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both;
+              animation: animate-svg-stroke-4 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-5 {
@@ -145,8 +145,8 @@
     }
 
     .svg-elem-5 {
-      -webkit-animation: animate-svg-stroke-5 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
-              animation: animate-svg-stroke-5 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
+      -webkit-animation: animate-svg-stroke-5 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
+              animation: animate-svg-stroke-5 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-6 {
@@ -174,8 +174,8 @@
     }
 
     .svg-elem-6 {
-      -webkit-animation: animate-svg-stroke-6 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
-              animation: animate-svg-stroke-6 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
+      -webkit-animation: animate-svg-stroke-6 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
+              animation: animate-svg-stroke-6 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-7 {
@@ -203,8 +203,8 @@
     }
 
     .svg-elem-7 {
-      -webkit-animation: animate-svg-stroke-7 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both;
-              animation: animate-svg-stroke-7 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both;
+      -webkit-animation: animate-svg-stroke-7 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both;
+              animation: animate-svg-stroke-7 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-8 {
@@ -232,8 +232,8 @@
     }
 
     .svg-elem-8 {
-      -webkit-animation: animate-svg-stroke-8 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both;
-              animation: animate-svg-stroke-8 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both;
+      -webkit-animation: animate-svg-stroke-8 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both;
+              animation: animate-svg-stroke-8 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-9 {
@@ -261,8 +261,8 @@
     }
 
     .svg-elem-9 {
-      -webkit-animation: animate-svg-stroke-9 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both;
-              animation: animate-svg-stroke-9 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both;
+      -webkit-animation: animate-svg-stroke-9 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both;
+              animation: animate-svg-stroke-9 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-10 {
@@ -290,8 +290,8 @@
     }
 
     .svg-elem-10 {
-      -webkit-animation: animate-svg-stroke-10 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both;
-              animation: animate-svg-stroke-10 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both;
+      -webkit-animation: animate-svg-stroke-10 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both;
+              animation: animate-svg-stroke-10 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-11 {
@@ -319,8 +319,8 @@
     }
 
     .svg-elem-11 {
-      -webkit-animation: animate-svg-stroke-11 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
-              animation: animate-svg-stroke-11 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
+      -webkit-animation: animate-svg-stroke-11 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
+              animation: animate-svg-stroke-11 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-12 {
@@ -348,8 +348,8 @@
     }
 
     .svg-elem-12 {
-      -webkit-animation: animate-svg-stroke-12 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both;
-              animation: animate-svg-stroke-12 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both;
+      -webkit-animation: animate-svg-stroke-12 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both;
+              animation: animate-svg-stroke-12 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-13 {
@@ -377,8 +377,8 @@
     }
 
     .svg-elem-13 {
-      -webkit-animation: animate-svg-stroke-13 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both;
-              animation: animate-svg-stroke-13 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both;
+      -webkit-animation: animate-svg-stroke-13 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both;
+              animation: animate-svg-stroke-13 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-14 {
@@ -406,8 +406,8 @@
     }
 
     .svg-elem-14 {
-      -webkit-animation: animate-svg-stroke-14 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both;
-              animation: animate-svg-stroke-14 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both;
+      -webkit-animation: animate-svg-stroke-14 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both;
+              animation: animate-svg-stroke-14 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-15 {
@@ -435,8 +435,8 @@
     }
 
     .svg-elem-15 {
-      -webkit-animation: animate-svg-stroke-15 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both;
-              animation: animate-svg-stroke-15 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both;
+      -webkit-animation: animate-svg-stroke-15 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both;
+              animation: animate-svg-stroke-15 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-16 {
@@ -464,8 +464,8 @@
     }
 
     .svg-elem-16 {
-      -webkit-animation: animate-svg-stroke-16 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both;
-              animation: animate-svg-stroke-16 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both;
+      -webkit-animation: animate-svg-stroke-16 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both;
+              animation: animate-svg-stroke-16 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-17 {
@@ -493,8 +493,8 @@
     }
 
     .svg-elem-17 {
-      -webkit-animation: animate-svg-stroke-17 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both;
-              animation: animate-svg-stroke-17 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both;
+      -webkit-animation: animate-svg-stroke-17 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both;
+              animation: animate-svg-stroke-17 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-18 {
@@ -522,8 +522,8 @@
     }
 
     .svg-elem-18 {
-      -webkit-animation: animate-svg-stroke-18 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both;
-              animation: animate-svg-stroke-18 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both;
+      -webkit-animation: animate-svg-stroke-18 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both;
+              animation: animate-svg-stroke-18 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-19 {
@@ -551,8 +551,8 @@
     }
 
     .svg-elem-19 {
-      -webkit-animation: animate-svg-stroke-19 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both;
-              animation: animate-svg-stroke-19 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both;
+      -webkit-animation: animate-svg-stroke-19 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both;
+              animation: animate-svg-stroke-19 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-20 {
@@ -580,8 +580,8 @@
     }
 
     .svg-elem-20 {
-      -webkit-animation: animate-svg-stroke-20 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both;
-              animation: animate-svg-stroke-20 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both;
+      -webkit-animation: animate-svg-stroke-20 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both;
+              animation: animate-svg-stroke-20 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-21 {
@@ -609,8 +609,8 @@
     }
 
     .svg-elem-21 {
-      -webkit-animation: animate-svg-stroke-21 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
-              animation: animate-svg-stroke-21 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
+      -webkit-animation: animate-svg-stroke-21 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
+              animation: animate-svg-stroke-21 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-22 {
@@ -638,8 +638,8 @@
     }
 
     .svg-elem-22 {
-      -webkit-animation: animate-svg-stroke-22 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both;
-              animation: animate-svg-stroke-22 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both;
+      -webkit-animation: animate-svg-stroke-22 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both;
+              animation: animate-svg-stroke-22 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-23 {
@@ -667,8 +667,8 @@
     }
 
     .svg-elem-23 {
-      -webkit-animation: animate-svg-stroke-23 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both;
-              animation: animate-svg-stroke-23 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both;
+      -webkit-animation: animate-svg-stroke-23 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both;
+              animation: animate-svg-stroke-23 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-24 {
@@ -696,8 +696,8 @@
     }
 
     .svg-elem-24 {
-      -webkit-animation: animate-svg-stroke-24 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both;
-              animation: animate-svg-stroke-24 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both;
+      -webkit-animation: animate-svg-stroke-24 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both;
+              animation: animate-svg-stroke-24 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-25 {
@@ -725,8 +725,8 @@
     }
 
     .svg-elem-25 {
-      -webkit-animation: animate-svg-stroke-25 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both;
-              animation: animate-svg-stroke-25 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both;
+      -webkit-animation: animate-svg-stroke-25 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both;
+              animation: animate-svg-stroke-25 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-26 {
@@ -754,8 +754,8 @@
     }
 
     .svg-elem-26 {
-      -webkit-animation: animate-svg-stroke-26 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
-              animation: animate-svg-stroke-26 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
+      -webkit-animation: animate-svg-stroke-26 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
+              animation: animate-svg-stroke-26 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-27 {
@@ -783,8 +783,8 @@
     }
 
     .svg-elem-27 {
-      -webkit-animation: animate-svg-stroke-27 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both;
-              animation: animate-svg-stroke-27 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both;
+      -webkit-animation: animate-svg-stroke-27 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both;
+              animation: animate-svg-stroke-27 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-28 {
@@ -812,8 +812,8 @@
     }
 
     .svg-elem-28 {
-      -webkit-animation: animate-svg-stroke-28 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both;
-              animation: animate-svg-stroke-28 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both;
+      -webkit-animation: animate-svg-stroke-28 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both;
+              animation: animate-svg-stroke-28 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-29 {
@@ -841,8 +841,8 @@
     }
 
     .svg-elem-29 {
-      -webkit-animation: animate-svg-stroke-29 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both;
-              animation: animate-svg-stroke-29 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both;
+      -webkit-animation: animate-svg-stroke-29 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both;
+              animation: animate-svg-stroke-29 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-30 {
@@ -870,8 +870,8 @@
     }
 
     .svg-elem-30 {
-      -webkit-animation: animate-svg-stroke-30 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both;
-              animation: animate-svg-stroke-30 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both;
+      -webkit-animation: animate-svg-stroke-30 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both;
+              animation: animate-svg-stroke-30 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-31 {
@@ -899,8 +899,8 @@
     }
 
     .svg-elem-31 {
-      -webkit-animation: animate-svg-stroke-31 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both;
-              animation: animate-svg-stroke-31 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both;
+      -webkit-animation: animate-svg-stroke-31 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both;
+              animation: animate-svg-stroke-31 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-32 {
@@ -928,8 +928,8 @@
     }
 
     .svg-elem-32 {
-      -webkit-animation: animate-svg-stroke-32 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both;
-              animation: animate-svg-stroke-32 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both;
+      -webkit-animation: animate-svg-stroke-32 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both;
+              animation: animate-svg-stroke-32 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-33 {
@@ -957,8 +957,8 @@
     }
 
     .svg-elem-33 {
-      -webkit-animation: animate-svg-stroke-33 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both;
-              animation: animate-svg-stroke-33 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both;
+      -webkit-animation: animate-svg-stroke-33 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both;
+              animation: animate-svg-stroke-33 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-34 {
@@ -986,8 +986,8 @@
     }
 
     .svg-elem-34 {
-      -webkit-animation: animate-svg-stroke-34 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both;
-              animation: animate-svg-stroke-34 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both;
+      -webkit-animation: animate-svg-stroke-34 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both;
+              animation: animate-svg-stroke-34 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-35 {
@@ -1015,8 +1015,8 @@
     }
 
     .svg-elem-35 {
-      -webkit-animation: animate-svg-stroke-35 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both;
-              animation: animate-svg-stroke-35 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both;
+      -webkit-animation: animate-svg-stroke-35 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both;
+              animation: animate-svg-stroke-35 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-36 {
@@ -1044,8 +1044,8 @@
     }
 
     .svg-elem-36 {
-      -webkit-animation: animate-svg-stroke-36 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
-              animation: animate-svg-stroke-36 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
+      -webkit-animation: animate-svg-stroke-36 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
+              animation: animate-svg-stroke-36 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-37 {
@@ -1073,8 +1073,8 @@
     }
 
     .svg-elem-37 {
-      -webkit-animation: animate-svg-stroke-37 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both;
-              animation: animate-svg-stroke-37 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both;
+      -webkit-animation: animate-svg-stroke-37 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both;
+              animation: animate-svg-stroke-37 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-38 {
@@ -1102,8 +1102,8 @@
     }
 
     .svg-elem-38 {
-      -webkit-animation: animate-svg-stroke-38 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both;
-              animation: animate-svg-stroke-38 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both;
+      -webkit-animation: animate-svg-stroke-38 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both;
+              animation: animate-svg-stroke-38 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-39 {
@@ -1131,8 +1131,8 @@
     }
 
     .svg-elem-39 {
-      -webkit-animation: animate-svg-stroke-39 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both;
-              animation: animate-svg-stroke-39 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both;
+      -webkit-animation: animate-svg-stroke-39 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both;
+              animation: animate-svg-stroke-39 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-40 {
@@ -1160,8 +1160,8 @@
     }
 
     .svg-elem-40 {
-      -webkit-animation: animate-svg-stroke-40 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.68s both;
-              animation: animate-svg-stroke-40 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.68s both;
+      -webkit-animation: animate-svg-stroke-40 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.68s both;
+              animation: animate-svg-stroke-40 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-41 {
@@ -1189,8 +1189,8 @@
     }
 
     .svg-elem-41 {
-      -webkit-animation: animate-svg-stroke-41 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
-              animation: animate-svg-stroke-41 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
+      -webkit-animation: animate-svg-stroke-41 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
+              animation: animate-svg-stroke-41 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-42 {
@@ -1218,8 +1218,8 @@
     }
 
     .svg-elem-42 {
-      -webkit-animation: animate-svg-stroke-42 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.92s both;
-              animation: animate-svg-stroke-42 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.92s both;
+      -webkit-animation: animate-svg-stroke-42 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.92s both;
+              animation: animate-svg-stroke-42 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 4.92s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-43 {
@@ -1247,8 +1247,8 @@
     }
 
     .svg-elem-43 {
-      -webkit-animation: animate-svg-stroke-43 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.04s both;
-              animation: animate-svg-stroke-43 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.04s both;
+      -webkit-animation: animate-svg-stroke-43 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.04s both;
+              animation: animate-svg-stroke-43 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-44 {
@@ -1276,8 +1276,8 @@
     }
 
     .svg-elem-44 {
-      -webkit-animation: animate-svg-stroke-44 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.16s both;
-              animation: animate-svg-stroke-44 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.16s both;
+      -webkit-animation: animate-svg-stroke-44 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.16s both;
+              animation: animate-svg-stroke-44 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-45 {
@@ -1305,8 +1305,8 @@
     }
 
     .svg-elem-45 {
-      -webkit-animation: animate-svg-stroke-45 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.279999999999999s both;
-              animation: animate-svg-stroke-45 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.279999999999999s both;
+      -webkit-animation: animate-svg-stroke-45 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.279999999999999s both;
+              animation: animate-svg-stroke-45 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.279999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-46 {
@@ -1334,8 +1334,8 @@
     }
 
     .svg-elem-46 {
-      -webkit-animation: animate-svg-stroke-46 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3999999999999995s both;
-              animation: animate-svg-stroke-46 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3999999999999995s both;
+      -webkit-animation: animate-svg-stroke-46 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3999999999999995s both;
+              animation: animate-svg-stroke-46 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3999999999999995s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-47 {
@@ -1363,8 +1363,8 @@
     }
 
     .svg-elem-47 {
-      -webkit-animation: animate-svg-stroke-47 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.52s both;
-              animation: animate-svg-stroke-47 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.52s both;
+      -webkit-animation: animate-svg-stroke-47 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.52s both;
+              animation: animate-svg-stroke-47 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-48 {
@@ -1392,8 +1392,8 @@
     }
 
     .svg-elem-48 {
-      -webkit-animation: animate-svg-stroke-48 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.64s both;
-              animation: animate-svg-stroke-48 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.64s both;
+      -webkit-animation: animate-svg-stroke-48 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.64s both;
+              animation: animate-svg-stroke-48 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.64s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-49 {
@@ -1421,8 +1421,8 @@
     }
 
     .svg-elem-49 {
-      -webkit-animation: animate-svg-stroke-49 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.76s both;
-              animation: animate-svg-stroke-49 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.76s both;
+      -webkit-animation: animate-svg-stroke-49 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.76s both;
+              animation: animate-svg-stroke-49 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.76s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-50 {
@@ -1450,8 +1450,8 @@
     }
 
     .svg-elem-50 {
-      -webkit-animation: animate-svg-stroke-50 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.88s both;
-              animation: animate-svg-stroke-50 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.88s both;
+      -webkit-animation: animate-svg-stroke-50 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.88s both;
+              animation: animate-svg-stroke-50 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 5.88s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-51 {
@@ -1479,8 +1479,8 @@
     }
 
     .svg-elem-51 {
-      -webkit-animation: animate-svg-stroke-51 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
-              animation: animate-svg-stroke-51 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
+      -webkit-animation: animate-svg-stroke-51 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
+              animation: animate-svg-stroke-51 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-52 {
@@ -1508,8 +1508,8 @@
     }
 
     .svg-elem-52 {
-      -webkit-animation: animate-svg-stroke-52 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.12s both;
-              animation: animate-svg-stroke-52 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.12s both;
+      -webkit-animation: animate-svg-stroke-52 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.12s both;
+              animation: animate-svg-stroke-52 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-53 {
@@ -1537,8 +1537,8 @@
     }
 
     .svg-elem-53 {
-      -webkit-animation: animate-svg-stroke-53 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.24s both;
-              animation: animate-svg-stroke-53 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.24s both;
+      -webkit-animation: animate-svg-stroke-53 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.24s both;
+              animation: animate-svg-stroke-53 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-54 {
@@ -1566,8 +1566,8 @@
     }
 
     .svg-elem-54 {
-      -webkit-animation: animate-svg-stroke-54 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.359999999999999s both;
-              animation: animate-svg-stroke-54 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.359999999999999s both;
+      -webkit-animation: animate-svg-stroke-54 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.359999999999999s both;
+              animation: animate-svg-stroke-54 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.359999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-55 {
@@ -1595,8 +1595,8 @@
     }
 
     .svg-elem-55 {
-      -webkit-animation: animate-svg-stroke-55 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4799999999999995s both;
-              animation: animate-svg-stroke-55 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4799999999999995s both;
+      -webkit-animation: animate-svg-stroke-55 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4799999999999995s both;
+              animation: animate-svg-stroke-55 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4799999999999995s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-56 {
@@ -1624,8 +1624,8 @@
     }
 
     .svg-elem-56 {
-      -webkit-animation: animate-svg-stroke-56 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
-              animation: animate-svg-stroke-56 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
+      -webkit-animation: animate-svg-stroke-56 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
+              animation: animate-svg-stroke-56 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-57 {
@@ -1653,8 +1653,8 @@
     }
 
     .svg-elem-57 {
-      -webkit-animation: animate-svg-stroke-57 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.72s both;
-              animation: animate-svg-stroke-57 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.72s both;
+      -webkit-animation: animate-svg-stroke-57 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.72s both;
+              animation: animate-svg-stroke-57 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.72s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-58 {
@@ -1682,8 +1682,8 @@
     }
 
     .svg-elem-58 {
-      -webkit-animation: animate-svg-stroke-58 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.84s both;
-              animation: animate-svg-stroke-58 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.84s both;
+      -webkit-animation: animate-svg-stroke-58 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.84s both;
+              animation: animate-svg-stroke-58 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-59 {
@@ -1711,8 +1711,8 @@
     }
 
     .svg-elem-59 {
-      -webkit-animation: animate-svg-stroke-59 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.96s both;
-              animation: animate-svg-stroke-59 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.96s both;
+      -webkit-animation: animate-svg-stroke-59 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.96s both;
+              animation: animate-svg-stroke-59 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 6.96s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-60 {
@@ -1740,8 +1740,8 @@
     }
 
     .svg-elem-60 {
-      -webkit-animation: animate-svg-stroke-60 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.08s both;
-              animation: animate-svg-stroke-60 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.08s both;
+      -webkit-animation: animate-svg-stroke-60 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.08s both;
+              animation: animate-svg-stroke-60 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-61 {
@@ -1769,8 +1769,8 @@
     }
 
     .svg-elem-61 {
-      -webkit-animation: animate-svg-stroke-61 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.199999999999999s both;
-              animation: animate-svg-stroke-61 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.199999999999999s both;
+      -webkit-animation: animate-svg-stroke-61 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.199999999999999s both;
+              animation: animate-svg-stroke-61 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.199999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-62 {
@@ -1798,8 +1798,8 @@
     }
 
     .svg-elem-62 {
-      -webkit-animation: animate-svg-stroke-62 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.319999999999999s both;
-              animation: animate-svg-stroke-62 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.319999999999999s both;
+      -webkit-animation: animate-svg-stroke-62 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.319999999999999s both;
+              animation: animate-svg-stroke-62 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.319999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-63 {
@@ -1827,8 +1827,8 @@
     }
 
     .svg-elem-63 {
-      -webkit-animation: animate-svg-stroke-63 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4399999999999995s both;
-              animation: animate-svg-stroke-63 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4399999999999995s both;
+      -webkit-animation: animate-svg-stroke-63 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4399999999999995s both;
+              animation: animate-svg-stroke-63 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4399999999999995s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-64 {
@@ -1856,8 +1856,8 @@
     }
 
     .svg-elem-64 {
-      -webkit-animation: animate-svg-stroke-64 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.56s both;
-              animation: animate-svg-stroke-64 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.56s both;
+      -webkit-animation: animate-svg-stroke-64 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.56s both;
+              animation: animate-svg-stroke-64 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.56s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-65 {
@@ -1885,8 +1885,8 @@
     }
 
     .svg-elem-65 {
-      -webkit-animation: animate-svg-stroke-65 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.68s both;
-              animation: animate-svg-stroke-65 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.68s both;
+      -webkit-animation: animate-svg-stroke-65 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.68s both;
+              animation: animate-svg-stroke-65 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-66 {
@@ -1914,8 +1914,8 @@
     }
 
     .svg-elem-66 {
-      -webkit-animation: animate-svg-stroke-66 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
-              animation: animate-svg-stroke-66 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
+      -webkit-animation: animate-svg-stroke-66 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
+              animation: animate-svg-stroke-66 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-67 {
@@ -1943,8 +1943,8 @@
     }
 
     .svg-elem-67 {
-      -webkit-animation: animate-svg-stroke-67 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.92s both;
-              animation: animate-svg-stroke-67 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.92s both;
+      -webkit-animation: animate-svg-stroke-67 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.92s both;
+              animation: animate-svg-stroke-67 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 7.92s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-68 {
@@ -1972,8 +1972,8 @@
     }
 
     .svg-elem-68 {
-      -webkit-animation: animate-svg-stroke-68 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.04s both;
-              animation: animate-svg-stroke-68 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.04s both;
+      -webkit-animation: animate-svg-stroke-68 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.04s both;
+              animation: animate-svg-stroke-68 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-69 {
@@ -2001,8 +2001,8 @@
     }
 
     .svg-elem-69 {
-      -webkit-animation: animate-svg-stroke-69 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.16s both;
-              animation: animate-svg-stroke-69 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.16s both;
+      -webkit-animation: animate-svg-stroke-69 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.16s both;
+              animation: animate-svg-stroke-69 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-70 {
@@ -2030,8 +2030,8 @@
     }
 
     .svg-elem-70 {
-      -webkit-animation: animate-svg-stroke-70 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.28s both;
-              animation: animate-svg-stroke-70 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.28s both;
+      -webkit-animation: animate-svg-stroke-70 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.28s both;
+              animation: animate-svg-stroke-70 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.28s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-71 {
@@ -2059,8 +2059,8 @@
     }
 
     .svg-elem-71 {
-      -webkit-animation: animate-svg-stroke-71 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
-              animation: animate-svg-stroke-71 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
+      -webkit-animation: animate-svg-stroke-71 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
+              animation: animate-svg-stroke-71 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-72 {
@@ -2088,8 +2088,8 @@
     }
 
     .svg-elem-72 {
-      -webkit-animation: animate-svg-stroke-72 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.52s both;
-              animation: animate-svg-stroke-72 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.52s both;
+      -webkit-animation: animate-svg-stroke-72 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.52s both;
+              animation: animate-svg-stroke-72 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-73 {
@@ -2117,8 +2117,8 @@
     }
 
     .svg-elem-73 {
-      -webkit-animation: animate-svg-stroke-73 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.64s both;
-              animation: animate-svg-stroke-73 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.64s both;
+      -webkit-animation: animate-svg-stroke-73 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.64s both;
+              animation: animate-svg-stroke-73 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.64s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-74 {
@@ -2146,8 +2146,8 @@
     }
 
     .svg-elem-74 {
-      -webkit-animation: animate-svg-stroke-74 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.76s both;
-              animation: animate-svg-stroke-74 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.76s both;
+      -webkit-animation: animate-svg-stroke-74 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.76s both;
+              animation: animate-svg-stroke-74 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.76s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-75 {
@@ -2175,8 +2175,8 @@
     }
 
     .svg-elem-75 {
-      -webkit-animation: animate-svg-stroke-75 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.879999999999999s both;
-              animation: animate-svg-stroke-75 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.879999999999999s both;
+      -webkit-animation: animate-svg-stroke-75 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.879999999999999s both;
+              animation: animate-svg-stroke-75 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 8.879999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-76 {
@@ -2204,8 +2204,8 @@
     }
 
     .svg-elem-76 {
-      -webkit-animation: animate-svg-stroke-76 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
-              animation: animate-svg-stroke-76 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
+      -webkit-animation: animate-svg-stroke-76 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
+              animation: animate-svg-stroke-76 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-77 {
@@ -2233,8 +2233,8 @@
     }
 
     .svg-elem-77 {
-      -webkit-animation: animate-svg-stroke-77 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.12s both;
-              animation: animate-svg-stroke-77 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.12s both;
+      -webkit-animation: animate-svg-stroke-77 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.12s both;
+              animation: animate-svg-stroke-77 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-78 {
@@ -2262,8 +2262,8 @@
     }
 
     .svg-elem-78 {
-      -webkit-animation: animate-svg-stroke-78 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.24s both;
-              animation: animate-svg-stroke-78 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.24s both;
+      -webkit-animation: animate-svg-stroke-78 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.24s both;
+              animation: animate-svg-stroke-78 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-79 {
@@ -2291,8 +2291,8 @@
     }
 
     .svg-elem-79 {
-      -webkit-animation: animate-svg-stroke-79 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.36s both;
-              animation: animate-svg-stroke-79 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.36s both;
+      -webkit-animation: animate-svg-stroke-79 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.36s both;
+              animation: animate-svg-stroke-79 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-80 {
@@ -2320,8 +2320,8 @@
     }
 
     .svg-elem-80 {
-      -webkit-animation: animate-svg-stroke-80 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.48s both;
-              animation: animate-svg-stroke-80 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.48s both;
+      -webkit-animation: animate-svg-stroke-80 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.48s both;
+              animation: animate-svg-stroke-80 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.48s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-81 {
@@ -2349,8 +2349,8 @@
     }
 
     .svg-elem-81 {
-      -webkit-animation: animate-svg-stroke-81 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
-              animation: animate-svg-stroke-81 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
+      -webkit-animation: animate-svg-stroke-81 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
+              animation: animate-svg-stroke-81 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-82 {
@@ -2378,8 +2378,8 @@
     }
 
     .svg-elem-82 {
-      -webkit-animation: animate-svg-stroke-82 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.719999999999999s both;
-              animation: animate-svg-stroke-82 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.719999999999999s both;
+      -webkit-animation: animate-svg-stroke-82 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.719999999999999s both;
+              animation: animate-svg-stroke-82 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.719999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-83 {
@@ -2407,8 +2407,8 @@
     }
 
     .svg-elem-83 {
-      -webkit-animation: animate-svg-stroke-83 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.84s both;
-              animation: animate-svg-stroke-83 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.84s both;
+      -webkit-animation: animate-svg-stroke-83 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.84s both;
+              animation: animate-svg-stroke-83 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-84 {
@@ -2436,8 +2436,8 @@
     }
 
     .svg-elem-84 {
-      -webkit-animation: animate-svg-stroke-84 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.959999999999999s both;
-              animation: animate-svg-stroke-84 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.959999999999999s both;
+      -webkit-animation: animate-svg-stroke-84 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.959999999999999s both;
+              animation: animate-svg-stroke-84 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 9.959999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-85 {
@@ -2465,8 +2465,8 @@
     }
 
     .svg-elem-85 {
-      -webkit-animation: animate-svg-stroke-85 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.08s both;
-              animation: animate-svg-stroke-85 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.08s both;
+      -webkit-animation: animate-svg-stroke-85 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.08s both;
+              animation: animate-svg-stroke-85 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-86 {
@@ -2494,8 +2494,8 @@
     }
 
     .svg-elem-86 {
-      -webkit-animation: animate-svg-stroke-86 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
-              animation: animate-svg-stroke-86 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
+      -webkit-animation: animate-svg-stroke-86 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
+              animation: animate-svg-stroke-86 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-87 {
@@ -2523,8 +2523,8 @@
     }
 
     .svg-elem-87 {
-      -webkit-animation: animate-svg-stroke-87 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.32s both;
-              animation: animate-svg-stroke-87 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.32s both;
+      -webkit-animation: animate-svg-stroke-87 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.32s both;
+              animation: animate-svg-stroke-87 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.32s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-88 {
@@ -2552,8 +2552,8 @@
     }
 
     .svg-elem-88 {
-      -webkit-animation: animate-svg-stroke-88 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.44s both;
-              animation: animate-svg-stroke-88 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.44s both;
+      -webkit-animation: animate-svg-stroke-88 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.44s both;
+              animation: animate-svg-stroke-88 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.44s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-89 {
@@ -2581,8 +2581,8 @@
     }
 
     .svg-elem-89 {
-      -webkit-animation: animate-svg-stroke-89 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.559999999999999s both;
-              animation: animate-svg-stroke-89 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.559999999999999s both;
+      -webkit-animation: animate-svg-stroke-89 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.559999999999999s both;
+              animation: animate-svg-stroke-89 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.559999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-90 {
@@ -2610,8 +2610,8 @@
     }
 
     .svg-elem-90 {
-      -webkit-animation: animate-svg-stroke-90 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.68s both;
-              animation: animate-svg-stroke-90 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.68s both;
+      -webkit-animation: animate-svg-stroke-90 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.68s both;
+              animation: animate-svg-stroke-90 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-91 {
@@ -2639,8 +2639,8 @@
     }
 
     .svg-elem-91 {
-      -webkit-animation: animate-svg-stroke-91 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.799999999999999s both;
-              animation: animate-svg-stroke-91 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.799999999999999s both;
+      -webkit-animation: animate-svg-stroke-91 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.799999999999999s both;
+              animation: animate-svg-stroke-91 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.799999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-92 {
@@ -2668,8 +2668,8 @@
     }
 
     .svg-elem-92 {
-      -webkit-animation: animate-svg-stroke-92 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.92s both;
-              animation: animate-svg-stroke-92 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.92s both;
+      -webkit-animation: animate-svg-stroke-92 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.92s both;
+              animation: animate-svg-stroke-92 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 10.92s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-93 {
@@ -2697,8 +2697,8 @@
     }
 
     .svg-elem-93 {
-      -webkit-animation: animate-svg-stroke-93 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.04s both;
-              animation: animate-svg-stroke-93 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.04s both;
+      -webkit-animation: animate-svg-stroke-93 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.04s both;
+              animation: animate-svg-stroke-93 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-94 {
@@ -2726,8 +2726,8 @@
     }
 
     .svg-elem-94 {
-      -webkit-animation: animate-svg-stroke-94 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.16s both;
-              animation: animate-svg-stroke-94 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.16s both;
+      -webkit-animation: animate-svg-stroke-94 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.16s both;
+              animation: animate-svg-stroke-94 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-95 {
@@ -2755,8 +2755,8 @@
     }
 
     .svg-elem-95 {
-      -webkit-animation: animate-svg-stroke-95 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.28s both;
-              animation: animate-svg-stroke-95 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.28s both;
+      -webkit-animation: animate-svg-stroke-95 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.28s both;
+              animation: animate-svg-stroke-95 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.28s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-96 {
@@ -2784,8 +2784,8 @@
     }
 
     .svg-elem-96 {
-      -webkit-animation: animate-svg-stroke-96 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
-              animation: animate-svg-stroke-96 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
+      -webkit-animation: animate-svg-stroke-96 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
+              animation: animate-svg-stroke-96 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-97 {
@@ -2813,8 +2813,8 @@
     }
 
     .svg-elem-97 {
-      -webkit-animation: animate-svg-stroke-97 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.52s both;
-              animation: animate-svg-stroke-97 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.52s both;
+      -webkit-animation: animate-svg-stroke-97 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.52s both;
+              animation: animate-svg-stroke-97 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-98 {
@@ -2842,8 +2842,8 @@
     }
 
     .svg-elem-98 {
-      -webkit-animation: animate-svg-stroke-98 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.639999999999999s both;
-              animation: animate-svg-stroke-98 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.639999999999999s both;
+      -webkit-animation: animate-svg-stroke-98 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.639999999999999s both;
+              animation: animate-svg-stroke-98 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.639999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-99 {
@@ -2871,8 +2871,8 @@
     }
 
     .svg-elem-99 {
-      -webkit-animation: animate-svg-stroke-99 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.76s both;
-              animation: animate-svg-stroke-99 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.76s both;
+      -webkit-animation: animate-svg-stroke-99 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.76s both;
+              animation: animate-svg-stroke-99 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.76s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-100 {
@@ -2900,8 +2900,8 @@
     }
 
     .svg-elem-100 {
-      -webkit-animation: animate-svg-stroke-100 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.879999999999999s both;
-              animation: animate-svg-stroke-100 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.879999999999999s both;
+      -webkit-animation: animate-svg-stroke-100 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.879999999999999s both;
+              animation: animate-svg-stroke-100 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 11.879999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-101 {
@@ -2929,8 +2929,8 @@
     }
 
     .svg-elem-101 {
-      -webkit-animation: animate-svg-stroke-101 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
-              animation: animate-svg-stroke-101 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
+      -webkit-animation: animate-svg-stroke-101 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
+              animation: animate-svg-stroke-101 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-102 {
@@ -2958,8 +2958,8 @@
     }
 
     .svg-elem-102 {
-      -webkit-animation: animate-svg-stroke-102 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.12s both;
-              animation: animate-svg-stroke-102 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.12s both;
+      -webkit-animation: animate-svg-stroke-102 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.12s both;
+              animation: animate-svg-stroke-102 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-103 {
@@ -2987,8 +2987,8 @@
     }
 
     .svg-elem-103 {
-      -webkit-animation: animate-svg-stroke-103 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.24s both;
-              animation: animate-svg-stroke-103 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.24s both;
+      -webkit-animation: animate-svg-stroke-103 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.24s both;
+              animation: animate-svg-stroke-103 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-104 {
@@ -3016,8 +3016,8 @@
     }
 
     .svg-elem-104 {
-      -webkit-animation: animate-svg-stroke-104 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.36s both;
-              animation: animate-svg-stroke-104 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.36s both;
+      -webkit-animation: animate-svg-stroke-104 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.36s both;
+              animation: animate-svg-stroke-104 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-105 {
@@ -3045,8 +3045,8 @@
     }
 
     .svg-elem-105 {
-      -webkit-animation: animate-svg-stroke-105 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.48s both;
-              animation: animate-svg-stroke-105 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.48s both;
+      -webkit-animation: animate-svg-stroke-105 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.48s both;
+              animation: animate-svg-stroke-105 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.48s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-106 {
@@ -3074,8 +3074,8 @@
     }
 
     .svg-elem-106 {
-      -webkit-animation: animate-svg-stroke-106 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
-              animation: animate-svg-stroke-106 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
+      -webkit-animation: animate-svg-stroke-106 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
+              animation: animate-svg-stroke-106 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-107 {
@@ -3103,8 +3103,8 @@
     }
 
     .svg-elem-107 {
-      -webkit-animation: animate-svg-stroke-107 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.719999999999999s both;
-              animation: animate-svg-stroke-107 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.719999999999999s both;
+      -webkit-animation: animate-svg-stroke-107 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.719999999999999s both;
+              animation: animate-svg-stroke-107 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.719999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-108 {
@@ -3132,8 +3132,8 @@
     }
 
     .svg-elem-108 {
-      -webkit-animation: animate-svg-stroke-108 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.84s both;
-              animation: animate-svg-stroke-108 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.84s both;
+      -webkit-animation: animate-svg-stroke-108 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.84s both;
+              animation: animate-svg-stroke-108 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-109 {
@@ -3161,8 +3161,8 @@
     }
 
     .svg-elem-109 {
-      -webkit-animation: animate-svg-stroke-109 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.959999999999999s both;
-              animation: animate-svg-stroke-109 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.959999999999999s both;
+      -webkit-animation: animate-svg-stroke-109 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.959999999999999s both;
+              animation: animate-svg-stroke-109 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 12.959999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-110 {
@@ -3190,8 +3190,8 @@
     }
 
     .svg-elem-110 {
-      -webkit-animation: animate-svg-stroke-110 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.08s both;
-              animation: animate-svg-stroke-110 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.08s both;
+      -webkit-animation: animate-svg-stroke-110 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.08s both;
+              animation: animate-svg-stroke-110 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-111 {
@@ -3219,8 +3219,8 @@
     }
 
     .svg-elem-111 {
-      -webkit-animation: animate-svg-stroke-111 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
-              animation: animate-svg-stroke-111 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
+      -webkit-animation: animate-svg-stroke-111 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
+              animation: animate-svg-stroke-111 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-112 {
@@ -3248,8 +3248,8 @@
     }
 
     .svg-elem-112 {
-      -webkit-animation: animate-svg-stroke-112 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.32s both;
-              animation: animate-svg-stroke-112 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.32s both;
+      -webkit-animation: animate-svg-stroke-112 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.32s both;
+              animation: animate-svg-stroke-112 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.32s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-113 {
@@ -3277,8 +3277,8 @@
     }
 
     .svg-elem-113 {
-      -webkit-animation: animate-svg-stroke-113 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.44s both;
-              animation: animate-svg-stroke-113 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.44s both;
+      -webkit-animation: animate-svg-stroke-113 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.44s both;
+              animation: animate-svg-stroke-113 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.44s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-114 {
@@ -3306,8 +3306,8 @@
     }
 
     .svg-elem-114 {
-      -webkit-animation: animate-svg-stroke-114 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.559999999999999s both;
-              animation: animate-svg-stroke-114 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.559999999999999s both;
+      -webkit-animation: animate-svg-stroke-114 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.559999999999999s both;
+              animation: animate-svg-stroke-114 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.559999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-115 {
@@ -3335,8 +3335,8 @@
     }
 
     .svg-elem-115 {
-      -webkit-animation: animate-svg-stroke-115 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.68s both;
-              animation: animate-svg-stroke-115 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.68s both;
+      -webkit-animation: animate-svg-stroke-115 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.68s both;
+              animation: animate-svg-stroke-115 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-116 {
@@ -3364,8 +3364,8 @@
     }
 
     .svg-elem-116 {
-      -webkit-animation: animate-svg-stroke-116 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.799999999999999s both;
-              animation: animate-svg-stroke-116 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.799999999999999s both;
+      -webkit-animation: animate-svg-stroke-116 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.799999999999999s both;
+              animation: animate-svg-stroke-116 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.799999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-117 {
@@ -3393,8 +3393,8 @@
     }
 
     .svg-elem-117 {
-      -webkit-animation: animate-svg-stroke-117 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.92s both;
-              animation: animate-svg-stroke-117 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.92s both;
+      -webkit-animation: animate-svg-stroke-117 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.92s both;
+              animation: animate-svg-stroke-117 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 13.92s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-118 {
@@ -3422,8 +3422,8 @@
     }
 
     .svg-elem-118 {
-      -webkit-animation: animate-svg-stroke-118 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.04s both;
-              animation: animate-svg-stroke-118 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.04s both;
+      -webkit-animation: animate-svg-stroke-118 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.04s both;
+              animation: animate-svg-stroke-118 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-119 {
@@ -3451,8 +3451,8 @@
     }
 
     .svg-elem-119 {
-      -webkit-animation: animate-svg-stroke-119 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.16s both;
-              animation: animate-svg-stroke-119 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.16s both;
+      -webkit-animation: animate-svg-stroke-119 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.16s both;
+              animation: animate-svg-stroke-119 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-120 {
@@ -3480,8 +3480,8 @@
     }
 
     .svg-elem-120 {
-      -webkit-animation: animate-svg-stroke-120 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.28s both;
-              animation: animate-svg-stroke-120 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.28s both;
+      -webkit-animation: animate-svg-stroke-120 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.28s both;
+              animation: animate-svg-stroke-120 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.28s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-121 {
@@ -3509,8 +3509,8 @@
     }
 
     .svg-elem-121 {
-      -webkit-animation: animate-svg-stroke-121 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.399999999999999s both;
-              animation: animate-svg-stroke-121 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.399999999999999s both;
+      -webkit-animation: animate-svg-stroke-121 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.399999999999999s both;
+              animation: animate-svg-stroke-121 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.399999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-122 {
@@ -3538,8 +3538,8 @@
     }
 
     .svg-elem-122 {
-      -webkit-animation: animate-svg-stroke-122 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.52s both;
-              animation: animate-svg-stroke-122 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.52s both;
+      -webkit-animation: animate-svg-stroke-122 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.52s both;
+              animation: animate-svg-stroke-122 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-123 {
@@ -3567,8 +3567,8 @@
     }
 
     .svg-elem-123 {
-      -webkit-animation: animate-svg-stroke-123 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.639999999999999s both;
-              animation: animate-svg-stroke-123 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.639999999999999s both;
+      -webkit-animation: animate-svg-stroke-123 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.639999999999999s both;
+              animation: animate-svg-stroke-123 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.639999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-124 {
@@ -3596,8 +3596,8 @@
     }
 
     .svg-elem-124 {
-      -webkit-animation: animate-svg-stroke-124 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.76s both;
-              animation: animate-svg-stroke-124 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.76s both;
+      -webkit-animation: animate-svg-stroke-124 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.76s both;
+              animation: animate-svg-stroke-124 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.76s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-125 {
@@ -3625,8 +3625,8 @@
     }
 
     .svg-elem-125 {
-      -webkit-animation: animate-svg-stroke-125 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.879999999999999s both;
-              animation: animate-svg-stroke-125 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.879999999999999s both;
+      -webkit-animation: animate-svg-stroke-125 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.879999999999999s both;
+              animation: animate-svg-stroke-125 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 14.879999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-126 {
@@ -3654,8 +3654,8 @@
     }
 
     .svg-elem-126 {
-      -webkit-animation: animate-svg-stroke-126 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
-              animation: animate-svg-stroke-126 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
+      -webkit-animation: animate-svg-stroke-126 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
+              animation: animate-svg-stroke-126 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-127 {
@@ -3683,8 +3683,8 @@
     }
 
     .svg-elem-127 {
-      -webkit-animation: animate-svg-stroke-127 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.12s both;
-              animation: animate-svg-stroke-127 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.12s both;
+      -webkit-animation: animate-svg-stroke-127 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.12s both;
+              animation: animate-svg-stroke-127 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-128 {
@@ -3712,8 +3712,8 @@
     }
 
     .svg-elem-128 {
-      -webkit-animation: animate-svg-stroke-128 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.24s both;
-              animation: animate-svg-stroke-128 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.24s both;
+      -webkit-animation: animate-svg-stroke-128 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.24s both;
+              animation: animate-svg-stroke-128 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-129 {
@@ -3741,8 +3741,8 @@
     }
 
     .svg-elem-129 {
-      -webkit-animation: animate-svg-stroke-129 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.36s both;
-              animation: animate-svg-stroke-129 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.36s both;
+      -webkit-animation: animate-svg-stroke-129 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.36s both;
+              animation: animate-svg-stroke-129 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-130 {
@@ -3770,8 +3770,8 @@
     }
 
     .svg-elem-130 {
-      -webkit-animation: animate-svg-stroke-130 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.479999999999999s both;
-              animation: animate-svg-stroke-130 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.479999999999999s both;
+      -webkit-animation: animate-svg-stroke-130 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.479999999999999s both;
+              animation: animate-svg-stroke-130 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.479999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-131 {
@@ -3799,8 +3799,8 @@
     }
 
     .svg-elem-131 {
-      -webkit-animation: animate-svg-stroke-131 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
-              animation: animate-svg-stroke-131 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
+      -webkit-animation: animate-svg-stroke-131 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
+              animation: animate-svg-stroke-131 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-132 {
@@ -3828,8 +3828,8 @@
     }
 
     .svg-elem-132 {
-      -webkit-animation: animate-svg-stroke-132 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.719999999999999s both;
-              animation: animate-svg-stroke-132 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.719999999999999s both;
+      -webkit-animation: animate-svg-stroke-132 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.719999999999999s both;
+              animation: animate-svg-stroke-132 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.719999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-133 {
@@ -3857,8 +3857,8 @@
     }
 
     .svg-elem-133 {
-      -webkit-animation: animate-svg-stroke-133 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.84s both;
-              animation: animate-svg-stroke-133 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.84s both;
+      -webkit-animation: animate-svg-stroke-133 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.84s both;
+              animation: animate-svg-stroke-133 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-134 {
@@ -3886,8 +3886,8 @@
     }
 
     .svg-elem-134 {
-      -webkit-animation: animate-svg-stroke-134 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.959999999999999s both;
-              animation: animate-svg-stroke-134 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.959999999999999s both;
+      -webkit-animation: animate-svg-stroke-134 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.959999999999999s both;
+              animation: animate-svg-stroke-134 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 15.959999999999999s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-135 {
@@ -3915,8 +3915,8 @@
     }
 
     .svg-elem-135 {
-      -webkit-animation: animate-svg-stroke-135 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.08s both;
-              animation: animate-svg-stroke-135 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.08s both;
+      -webkit-animation: animate-svg-stroke-135 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.08s both;
+              animation: animate-svg-stroke-135 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-136 {
@@ -3944,8 +3944,8 @@
     }
 
     .svg-elem-136 {
-      -webkit-animation: animate-svg-stroke-136 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
-              animation: animate-svg-stroke-136 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
+      -webkit-animation: animate-svg-stroke-136 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
+              animation: animate-svg-stroke-136 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-137 {
@@ -3973,8 +3973,8 @@
     }
 
     .svg-elem-137 {
-      -webkit-animation: animate-svg-stroke-137 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.32s both;
-              animation: animate-svg-stroke-137 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.32s both;
+      -webkit-animation: animate-svg-stroke-137 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.32s both;
+              animation: animate-svg-stroke-137 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.32s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-138 {
@@ -4002,8 +4002,8 @@
     }
 
     .svg-elem-138 {
-      -webkit-animation: animate-svg-stroke-138 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.439999999999998s both;
-              animation: animate-svg-stroke-138 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.439999999999998s both;
+      -webkit-animation: animate-svg-stroke-138 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.439999999999998s both;
+              animation: animate-svg-stroke-138 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.439999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-139 {
@@ -4031,8 +4031,8 @@
     }
 
     .svg-elem-139 {
-      -webkit-animation: animate-svg-stroke-139 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.56s both;
-              animation: animate-svg-stroke-139 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.56s both;
+      -webkit-animation: animate-svg-stroke-139 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.56s both;
+              animation: animate-svg-stroke-139 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.56s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-140 {
@@ -4060,8 +4060,8 @@
     }
 
     .svg-elem-140 {
-      -webkit-animation: animate-svg-stroke-140 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.68s both;
-              animation: animate-svg-stroke-140 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.68s both;
+      -webkit-animation: animate-svg-stroke-140 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.68s both;
+              animation: animate-svg-stroke-140 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-141 {
@@ -4089,8 +4089,8 @@
     }
 
     .svg-elem-141 {
-      -webkit-animation: animate-svg-stroke-141 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.8s both;
-              animation: animate-svg-stroke-141 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.8s both;
+      -webkit-animation: animate-svg-stroke-141 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.8s both;
+              animation: animate-svg-stroke-141 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.8s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-142 {
@@ -4118,8 +4118,8 @@
     }
 
     .svg-elem-142 {
-      -webkit-animation: animate-svg-stroke-142 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.919999999999998s both;
-              animation: animate-svg-stroke-142 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.919999999999998s both;
+      -webkit-animation: animate-svg-stroke-142 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.919999999999998s both;
+              animation: animate-svg-stroke-142 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 16.919999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-143 {
@@ -4147,8 +4147,8 @@
     }
 
     .svg-elem-143 {
-      -webkit-animation: animate-svg-stroke-143 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.04s both;
-              animation: animate-svg-stroke-143 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.04s both;
+      -webkit-animation: animate-svg-stroke-143 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.04s both;
+              animation: animate-svg-stroke-143 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-144 {
@@ -4176,8 +4176,8 @@
     }
 
     .svg-elem-144 {
-      -webkit-animation: animate-svg-stroke-144 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.16s both;
-              animation: animate-svg-stroke-144 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.16s both;
+      -webkit-animation: animate-svg-stroke-144 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.16s both;
+              animation: animate-svg-stroke-144 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-145 {
@@ -4205,8 +4205,8 @@
     }
 
     .svg-elem-145 {
-      -webkit-animation: animate-svg-stroke-145 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.28s both;
-              animation: animate-svg-stroke-145 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.28s both;
+      -webkit-animation: animate-svg-stroke-145 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.28s both;
+              animation: animate-svg-stroke-145 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.28s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-146 {
@@ -4234,8 +4234,8 @@
     }
 
     .svg-elem-146 {
-      -webkit-animation: animate-svg-stroke-146 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.4s both;
-              animation: animate-svg-stroke-146 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.4s both;
+      -webkit-animation: animate-svg-stroke-146 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.4s both;
+              animation: animate-svg-stroke-146 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.4s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-147 {
@@ -4263,8 +4263,8 @@
     }
 
     .svg-elem-147 {
-      -webkit-animation: animate-svg-stroke-147 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.52s both;
-              animation: animate-svg-stroke-147 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.52s both;
+      -webkit-animation: animate-svg-stroke-147 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.52s both;
+              animation: animate-svg-stroke-147 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-148 {
@@ -4292,8 +4292,8 @@
     }
 
     .svg-elem-148 {
-      -webkit-animation: animate-svg-stroke-148 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.64s both;
-              animation: animate-svg-stroke-148 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.64s both;
+      -webkit-animation: animate-svg-stroke-148 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.64s both;
+              animation: animate-svg-stroke-148 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.64s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-149 {
@@ -4321,8 +4321,8 @@
     }
 
     .svg-elem-149 {
-      -webkit-animation: animate-svg-stroke-149 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.759999999999998s both;
-              animation: animate-svg-stroke-149 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.759999999999998s both;
+      -webkit-animation: animate-svg-stroke-149 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.759999999999998s both;
+              animation: animate-svg-stroke-149 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.759999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-150 {
@@ -4350,8 +4350,8 @@
     }
 
     .svg-elem-150 {
-      -webkit-animation: animate-svg-stroke-150 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.88s both;
-              animation: animate-svg-stroke-150 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.88s both;
+      -webkit-animation: animate-svg-stroke-150 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.88s both;
+              animation: animate-svg-stroke-150 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 17.88s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-151 {
@@ -4379,8 +4379,8 @@
     }
 
     .svg-elem-151 {
-      -webkit-animation: animate-svg-stroke-151 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18s both;
-              animation: animate-svg-stroke-151 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18s both;
+      -webkit-animation: animate-svg-stroke-151 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18s both;
+              animation: animate-svg-stroke-151 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-152 {
@@ -4408,8 +4408,8 @@
     }
 
     .svg-elem-152 {
-      -webkit-animation: animate-svg-stroke-152 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.12s both;
-              animation: animate-svg-stroke-152 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.12s both;
+      -webkit-animation: animate-svg-stroke-152 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.12s both;
+              animation: animate-svg-stroke-152 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.12s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-153 {
@@ -4437,8 +4437,8 @@
     }
 
     .svg-elem-153 {
-      -webkit-animation: animate-svg-stroke-153 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.24s both;
-              animation: animate-svg-stroke-153 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.24s both;
+      -webkit-animation: animate-svg-stroke-153 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.24s both;
+              animation: animate-svg-stroke-153 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-154 {
@@ -4466,8 +4466,8 @@
     }
 
     .svg-elem-154 {
-      -webkit-animation: animate-svg-stroke-154 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.36s both;
-              animation: animate-svg-stroke-154 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.36s both;
+      -webkit-animation: animate-svg-stroke-154 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.36s both;
+              animation: animate-svg-stroke-154 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.36s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-155 {
@@ -4495,8 +4495,8 @@
     }
 
     .svg-elem-155 {
-      -webkit-animation: animate-svg-stroke-155 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.48s both;
-              animation: animate-svg-stroke-155 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.48s both;
+      -webkit-animation: animate-svg-stroke-155 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.48s both;
+              animation: animate-svg-stroke-155 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.48s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-156 {
@@ -4524,8 +4524,8 @@
     }
 
     .svg-elem-156 {
-      -webkit-animation: animate-svg-stroke-156 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.599999999999998s both;
-              animation: animate-svg-stroke-156 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.599999999999998s both;
+      -webkit-animation: animate-svg-stroke-156 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.599999999999998s both;
+              animation: animate-svg-stroke-156 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.599999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-157 {
@@ -4553,8 +4553,8 @@
     }
 
     .svg-elem-157 {
-      -webkit-animation: animate-svg-stroke-157 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.72s both;
-              animation: animate-svg-stroke-157 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.72s both;
+      -webkit-animation: animate-svg-stroke-157 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.72s both;
+              animation: animate-svg-stroke-157 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.72s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-158 {
@@ -4582,8 +4582,8 @@
     }
 
     .svg-elem-158 {
-      -webkit-animation: animate-svg-stroke-158 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.84s both;
-              animation: animate-svg-stroke-158 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.84s both;
+      -webkit-animation: animate-svg-stroke-158 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.84s both;
+              animation: animate-svg-stroke-158 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.84s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-159 {
@@ -4611,8 +4611,8 @@
     }
 
     .svg-elem-159 {
-      -webkit-animation: animate-svg-stroke-159 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.96s both;
-              animation: animate-svg-stroke-159 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.96s both;
+      -webkit-animation: animate-svg-stroke-159 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.96s both;
+              animation: animate-svg-stroke-159 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 18.96s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-160 {
@@ -4640,8 +4640,8 @@
     }
 
     .svg-elem-160 {
-      -webkit-animation: animate-svg-stroke-160 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.08s both;
-              animation: animate-svg-stroke-160 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.08s both;
+      -webkit-animation: animate-svg-stroke-160 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.08s both;
+              animation: animate-svg-stroke-160 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.08s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-161 {
@@ -4669,8 +4669,8 @@
     }
 
     .svg-elem-161 {
-      -webkit-animation: animate-svg-stroke-161 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.2s both;
-              animation: animate-svg-stroke-161 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.2s both;
+      -webkit-animation: animate-svg-stroke-161 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.2s both;
+              animation: animate-svg-stroke-161 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.2s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-162 {
@@ -4698,8 +4698,8 @@
     }
 
     .svg-elem-162 {
-      -webkit-animation: animate-svg-stroke-162 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.32s both;
-              animation: animate-svg-stroke-162 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.32s both;
+      -webkit-animation: animate-svg-stroke-162 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.32s both;
+              animation: animate-svg-stroke-162 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.32s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-163 {
@@ -4727,8 +4727,8 @@
     }
 
     .svg-elem-163 {
-      -webkit-animation: animate-svg-stroke-163 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.439999999999998s both;
-              animation: animate-svg-stroke-163 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.439999999999998s both;
+      -webkit-animation: animate-svg-stroke-163 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.439999999999998s both;
+              animation: animate-svg-stroke-163 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.439999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-164 {
@@ -4756,8 +4756,8 @@
     }
 
     .svg-elem-164 {
-      -webkit-animation: animate-svg-stroke-164 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.56s both;
-              animation: animate-svg-stroke-164 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.56s both;
+      -webkit-animation: animate-svg-stroke-164 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.56s both;
+              animation: animate-svg-stroke-164 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.56s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-165 {
@@ -4785,8 +4785,8 @@
     }
 
     .svg-elem-165 {
-      -webkit-animation: animate-svg-stroke-165 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.68s both;
-              animation: animate-svg-stroke-165 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.68s both;
+      -webkit-animation: animate-svg-stroke-165 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.68s both;
+              animation: animate-svg-stroke-165 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.68s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-166 {
@@ -4814,8 +4814,8 @@
     }
 
     .svg-elem-166 {
-      -webkit-animation: animate-svg-stroke-166 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.8s both;
-              animation: animate-svg-stroke-166 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.8s both;
+      -webkit-animation: animate-svg-stroke-166 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.8s both;
+              animation: animate-svg-stroke-166 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.8s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-167 {
@@ -4843,8 +4843,8 @@
     }
 
     .svg-elem-167 {
-      -webkit-animation: animate-svg-stroke-167 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.919999999999998s both;
-              animation: animate-svg-stroke-167 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.919999999999998s both;
+      -webkit-animation: animate-svg-stroke-167 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.919999999999998s both;
+              animation: animate-svg-stroke-167 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 19.919999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-168 {
@@ -4872,8 +4872,8 @@
     }
 
     .svg-elem-168 {
-      -webkit-animation: animate-svg-stroke-168 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.04s both;
-              animation: animate-svg-stroke-168 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.04s both;
+      -webkit-animation: animate-svg-stroke-168 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.04s both;
+              animation: animate-svg-stroke-168 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.04s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-169 {
@@ -4901,8 +4901,8 @@
     }
 
     .svg-elem-169 {
-      -webkit-animation: animate-svg-stroke-169 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.16s both;
-              animation: animate-svg-stroke-169 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.16s both;
+      -webkit-animation: animate-svg-stroke-169 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.16s both;
+              animation: animate-svg-stroke-169 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.16s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-170 {
@@ -4930,8 +4930,8 @@
     }
 
     .svg-elem-170 {
-      -webkit-animation: animate-svg-stroke-170 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.279999999999998s both;
-              animation: animate-svg-stroke-170 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.279999999999998s both;
+      -webkit-animation: animate-svg-stroke-170 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.279999999999998s both;
+              animation: animate-svg-stroke-170 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.279999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-171 {
@@ -4959,8 +4959,8 @@
     }
 
     .svg-elem-171 {
-      -webkit-animation: animate-svg-stroke-171 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.4s both;
-              animation: animate-svg-stroke-171 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.4s both;
+      -webkit-animation: animate-svg-stroke-171 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.4s both;
+              animation: animate-svg-stroke-171 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.4s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-172 {
@@ -4988,8 +4988,8 @@
     }
 
     .svg-elem-172 {
-      -webkit-animation: animate-svg-stroke-172 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.52s both;
-              animation: animate-svg-stroke-172 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.52s both;
+      -webkit-animation: animate-svg-stroke-172 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.52s both;
+              animation: animate-svg-stroke-172 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.52s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-173 {
@@ -5017,8 +5017,8 @@
     }
 
     .svg-elem-173 {
-      -webkit-animation: animate-svg-stroke-173 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.64s both;
-              animation: animate-svg-stroke-173 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.64s both;
+      -webkit-animation: animate-svg-stroke-173 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.64s both;
+              animation: animate-svg-stroke-173 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.64s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-174 {
@@ -5046,8 +5046,8 @@
     }
 
     .svg-elem-174 {
-      -webkit-animation: animate-svg-stroke-174 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.759999999999998s both;
-              animation: animate-svg-stroke-174 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.759999999999998s both;
+      -webkit-animation: animate-svg-stroke-174 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.759999999999998s both;
+              animation: animate-svg-stroke-174 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.759999999999998s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-175 {
@@ -5075,8 +5075,8 @@
     }
 
     .svg-elem-175 {
-      -webkit-animation: animate-svg-stroke-175 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.88s both;
-              animation: animate-svg-stroke-175 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.88s both;
+      -webkit-animation: animate-svg-stroke-175 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.88s both;
+              animation: animate-svg-stroke-175 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 20.88s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-176 {
@@ -5104,8 +5104,8 @@
     }
 
     .svg-elem-176 {
-      -webkit-animation: animate-svg-stroke-176 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21s both;
-              animation: animate-svg-stroke-176 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21s both;
+      -webkit-animation: animate-svg-stroke-176 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21s both;
+              animation: animate-svg-stroke-176 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-177 {
@@ -5133,8 +5133,8 @@
     }
 
     .svg-elem-177 {
-      -webkit-animation: animate-svg-stroke-177 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.119999999999997s both;
-              animation: animate-svg-stroke-177 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.119999999999997s both;
+      -webkit-animation: animate-svg-stroke-177 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.119999999999997s both;
+              animation: animate-svg-stroke-177 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.119999999999997s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-178 {
@@ -5162,8 +5162,8 @@
     }
 
     .svg-elem-178 {
-      -webkit-animation: animate-svg-stroke-178 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.24s both;
-              animation: animate-svg-stroke-178 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.24s both;
+      -webkit-animation: animate-svg-stroke-178 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.24s both;
+              animation: animate-svg-stroke-178 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.24s both;
     }
 
     @-webkit-keyframes animate-svg-stroke-179 {
@@ -5191,6 +5191,6 @@
     }
 
     .svg-elem-179 {
-      -webkit-animation: animate-svg-stroke-179 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.36s both;
-              animation: animate-svg-stroke-179 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.36s both;
+      -webkit-animation: animate-svg-stroke-179 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.36s both;
+              animation: animate-svg-stroke-179 0.06s cubic-bezier(0.47, 0, 0.745, 0.715) 21.36s both;
     }
