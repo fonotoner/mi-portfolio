@@ -52,12 +52,14 @@ const stack: { label: string; icon: string }[] = [
 
 <Layout titulo={`${t("hero.greeting", currentLocale)} — Mi portfolio`}>
   <h1 class="text-7xl font-black animate-fade-down animate-duration-4000 animate-ease-in-out text-slate-900 dark:text-white">{t("hero.greeting", currentLocale)}</h1>
+        <p class="text-base text-balance text-slate-700 dark:text-slate-300 animate-fade-up mt-4">
+          <span class="font-extralight italic">{t("hero.subtitle", currentLocale)}</span>
+        </p>
   <div class="flex flex-col items-center justify-center gap-6">
     <div class="flex gap-12 items-center">
       <div class="flex-col w-3/4">
         <p class="text-base text-balance text-slate-700 dark:text-slate-300 animate-fade-up mt-4">
-          <span class="font-extralight italic">{t("hero.subtitle", currentLocale)}</span>
-          <br /><br />{t("hero.description", currentLocale)}
+          {t("hero.description", currentLocale)}
         </p>
       </div>
       <span id="dibu" class="w-1/4 shrink-0 inline-block animate-pulse-fade-in [&_svg]:block [&_svg]:h-auto [&_svg]:w-full" role="img" aria-label="Fon">
