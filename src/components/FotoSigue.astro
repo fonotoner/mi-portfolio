@@ -1,0 +1,152 @@
+---
+const frames = [
+  { id: "center", src: "/img/fotosigue/01-01-fon-frontal.webp" },
+  { id: "on", src: "/img/fotosigue/01-01-fon-frontal_ON.webp" },
+  { id: "up", src: "/img/fotosigue/01-02-fon-arriba.webp" },
+  { id: "down", src: "/img/fotosigue/01-03-fon-abajo.webp" },
+  { id: "downLeft", src: "/img/fotosigue/01-04-fon-abajo-izquierda.webp" },
+  { id: "left", src: "/img/fotosigue/01-05-fon-izquierda.webp" },
+  { id: "upLeft", src: "/img/fotosigue/01-06-fon-arriba-izquierda.webp" },
+  { id: "right", src: "/img/fotosigue/01-07-fon-derecha.webp" },
+  { id: "upRight", src: "/img/fotosigue/01-08-fon-arriba-derecha.webp" },
+  { id: "downRight", src: "/img/fotosigue/01-09-fon-abajo-derecha.webp" },
+] as const;
+---
+
+<button
+  type="button"
+  data-foto-sigue
+  class="relative block w-full cursor-pointer overflow-hidden select-none"
+  aria-pressed="false"
+  aria-label="Retrato que sigue la mirada. Clic para encender."
+>
+  {
+    frames.map(({ id, src }, index) => (
+      <img
+        src={src}
+        alt={index === 0 ? "I'm watching you!" : ""}
+        aria-hidden={index === 0 ? undefined : "true"}
+        data-frame={id}
+        width="800"
+        height="800"
+        decoding="async"
+        class:list={[
+          "pointer-events-none w-full h-auto",
+          index === 0 ? "relative" : "absolute inset-0 object-cover object-center opacity-0",
+          index === 0 && "opacity-100",
+        ]}
+      />
+    ))
+  }
+</button>
+
+<script>
+  const SECTORS = [
+    "right",
+    "downRight",
+    "down",
+    "downLeft",
+    "left",
+    "upLeft",
+    "up",
+    "upRight",
+  ] as const;
+
+  function frameFromPointer(root: HTMLElement, x: number, y: number) {
+    const box = root.getBoundingClientRect();
+    const cx = box.left + box.width / 2;
+    const cy = box.top + box.height / 2;
+    const dx = x - cx;
+    const dy = y - cy;
+    const deadZone = Math.max(box.width, box.height) * 0.22;
+
+    if (Math.hypot(dx, dy) < deadZone) return "center";
+
+    let deg = (Math.atan2(dy, dx) * 180) / Math.PI;
+    if (deg < 0) deg += 360;
+    return SECTORS[Math.round(deg / 45) % 8];
+  }
+
+  function showFrame(root: HTMLElement, id: string) {
+    if (root.dataset.activeFrame === id) return;
+    root.dataset.activeFrame = id;
+
+    root.querySelectorAll<HTMLImageElement>("[data-frame]").forEach((img) => {
+      const on = img.dataset.frame === id;
+      img.classList.toggle("opacity-0", !on);
+      img.classList.toggle("opacity-100", on);
+    });
+  }
+
+  function initFotoSigue() {
+    const root = document.querySelector<HTMLButtonElement>("[data-foto-sigue]");
+    if (!root || root.dataset.bound === "1") return;
+    root.dataset.bound = "1";
+
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const ac = new AbortController();
+    const { signal } = ac;
+    let lightsOn = false;
+    let ticking = false;
+    let pointerX = window.innerWidth / 2;
+    let pointerY = window.innerHeight / 2;
+
+    const update = () => {
+      ticking = false;
+      if (lightsOn) {
+        showFrame(root, "on");
+        return;
+      }
+      if (prefersReducedMotion) {
+        showFrame(root, "center");
+        return;
+      }
+      showFrame(root, frameFromPointer(root, pointerX, pointerY));
+    };
+
+    document.addEventListener(
+      "pointermove",
+      (event) => {
+        pointerX = event.clientX;
+        pointerY = event.clientY;
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(update);
+        }
+      },
+      { signal, passive: true },
+    );
+
+    document.addEventListener(
+      "click",
+      (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+
+        const onPhoto = Boolean(target.closest("[data-foto-sigue]"));
+        if (onPhoto) {
+          lightsOn = !lightsOn;
+        } else if (target.closest("a, button, summary, input, textarea, select, .nav-menu")) {
+          return;
+        } else {
+          lightsOn = true;
+        }
+
+        root.setAttribute("aria-pressed", String(lightsOn));
+        update();
+      },
+      { signal },
+    );
+
+    document.addEventListener(
+      "astro:before-swap",
+      () => ac.abort(),
+      { once: true },
+    );
+
+    showFrame(root, "center");
+  }
+
+  initFotoSigue();
+  document.addEventListener("astro:page-load", initFotoSigue);
+</script>
